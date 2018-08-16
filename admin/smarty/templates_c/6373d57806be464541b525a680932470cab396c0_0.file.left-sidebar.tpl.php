@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-08-16 13:33:50
+/* Smarty version 3.1.30, created on 2018-08-16 14:09:29
   from "C:\xampp\htdocs\project_amnote\admin\smarty\templates\left-sidebar.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5b75611e2e9cb0_84525130',
+  'unifunc' => 'content_5b756979117bf9_70839146',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6373d57806be464541b525a680932470cab396c0' => 
     array (
       0 => 'C:\\xampp\\htdocs\\project_amnote\\admin\\smarty\\templates\\left-sidebar.tpl',
-      1 => 1534419227,
+      1 => 1534421366,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b75611e2e9cb0_84525130 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b756979117bf9_70839146 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!-- ========== Left Sidebar Start ========== -->
 <div class="left-side-menu">
@@ -54,6 +54,12 @@ function content_5b75611e2e9cb0_84525130 (Smarty_Internal_Template $_smarty_tpl)
                     <a href="accounting-firm">
                         <i class="fe-git-merge"></i>
                         <span> Accounting Firm </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="other-services.php">
+                        <i class="fe-menu"></i>
+                        <span> Other Service </span>
                     </a>
                 </li>
 

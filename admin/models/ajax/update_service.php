@@ -1,14 +1,16 @@
 <?php
 include ("check_permission.php");
-include ("./../m_accounting_firm.php");
+include("./../m_other_services.php");
 include ("./../../controllers/sanitize.php");
 $sanitize = new Sanitize();
-$m_accounting_firm = new M_accounting_firm();
+$m_other_service = new M_other_service();
+
 //sanitize data
+$id = $_POST['id'];
 $content = $sanitize->sanitize_input($_POST['content']);
-$add = $m_accounting_firm->add_firm($content);
-if($add){
+
+$update = $m_other_service->update_service($content, $id);
+if($update){
     echo "<script>location.reload();</script>";
 }
-
 

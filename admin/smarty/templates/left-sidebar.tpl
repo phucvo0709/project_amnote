@@ -32,6 +32,12 @@
                         <span> Accounting Firm </span>
                     </a>
                 </li>
+                <li>
+                    <a href="other-services.php">
+                        <i class="fe-menu"></i>
+                        <span> Other Service </span>
+                    </a>
+                </li>
 
             </ul>
 

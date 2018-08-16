@@ -1,6 +1,6 @@
 <?php
 /* Smarty version 3.1.30, created on 2018-08-15 08:13:29
-  from "C:\xampp\htdocs\project_amnote\views\v_other_service.tpl" */
+  from "C:\xampp\htdocs\project_amnote\views\v_other_services.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
@@ -11,7 +11,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
     '31bc43ccaa8de29cea54c17f5c76bea092d3e5a7' => 
     array (
-      0 => 'C:\\xampp\\htdocs\\project_amnote\\views\\v_other_service.tpl',
+      0 => 'C:\\xampp\\htdocs\\project_amnote\\views\\v_other_services.tpl',
       1 => 1534313526,
       2 => 'file',
     ),
