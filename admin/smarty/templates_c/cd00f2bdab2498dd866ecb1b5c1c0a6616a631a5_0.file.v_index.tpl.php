@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-08-15 04:48:48
+/* Smarty version 3.1.30, created on 2018-08-16 08:23:04
   from "C:\xampp\htdocs\project_amnote\admin\views\v_index.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5b7394902a4f84_20590930',
+  'unifunc' => 'content_5b75184875b368_74882414',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'cd00f2bdab2498dd866ecb1b5c1c0a6616a631a5' => 
     array (
       0 => 'C:\\xampp\\htdocs\\project_amnote\\admin\\views\\v_index.tpl',
-      1 => 1534301299,
+      1 => 1534400420,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b7394902a4f84_20590930 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b75184875b368_74882414 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="row">
     <div class="col-12">
@@ -31,5 +31,6 @@ function content_5b7394902a4f84_20590930 (Smarty_Internal_Template $_smarty_tpl)
             </p>
         </div>
     </div> <!-- end col -->
-</div><?php }
+</div>
+<?php }
 }

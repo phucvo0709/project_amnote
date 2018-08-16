@@ -1,4 +1,4 @@
 <?php
-    include("controllers/C_register.php");
+    include("controllers/c_register.php");
     $c_register = new C_register();
     $c_register->show();

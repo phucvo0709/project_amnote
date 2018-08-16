@@ -19,6 +19,20 @@
 <!-- App js -->
 <script src="public/js/vendor.min.js"></script>
 <script src="public/js/app.min.js"></script>
+<!-- third party js -->
+<script src="public/js/vendor/jquery.dataTables.js"></script>
+<script src="public/js/vendor/dataTables.bootstrap4.js"></script>
+<script src="public/js/vendor/dataTables.responsive.min.js"></script>
+<script src="public/js/vendor/responsive.bootstrap4.min.js"></script>
+<script src="public/js/vendor/dataTables.buttons.min.js"></script>
+<script src="public/js/vendor/buttons.bootstrap4.min.js"></script>
+<script src="public/js/vendor/dataTables.keyTable.min.js"></script>
+<script src="public/js/vendor/dataTables.select.min.js"></script>
+<!-- third party js ends -->
+
+<!-- demo app -->
+<script src="public/js/pages/datatables.init.js"></script>
+<!-- end demo js-->
 
 </body>
 </html>

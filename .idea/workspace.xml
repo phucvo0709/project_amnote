@@ -2,11 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d5b46c7-0181-4a64-94b9-7c9a26f78ec0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/controllers/c_users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/models/ajax/add_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/models/ajax/check_permission.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/models/ajax/delete_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/models/ajax/update_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/models/m_users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/views/v_users.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/controllers/C_register.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controllers/C_register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/controllers/sanitize.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controllers/sanitize.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/smarty/templates_c/71fca3d3c883d2f4397daa8bbf1ed5c70bf2c36b_0.file.v_register.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates_c/71fca3d3c883d2f4397daa8bbf1ed5c70bf2c36b_0.file.v_register.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/views/v_register.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/admin/views/v_register.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/controllers/C_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controllers/c_index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/controllers/C_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controllers/c_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/controllers/C_register.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controllers/c_register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/models/crypt_password.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/models/crypt_password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/models/m_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/models/m_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/models/m_register.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/models/m_register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/smarty/templates/breadcumb.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates/breadcumb.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/smarty/templates/footer.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates/footer.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/smarty/templates/head.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates/head.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/smarty/templates/layout-auth.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates/layout-auth.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/smarty/templates/left-sidebar.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates/left-sidebar.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/smarty/templates/topbar.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates/topbar.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/smarty/templates_c/0ed102ece3d361de838d2759000e16f78e7882fc_0.file.topbar.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates_c/0ed102ece3d361de838d2759000e16f78e7882fc_0.file.topbar.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/smarty/templates_c/268668473536502a19a3714f04fd4da4f1afc4e9_0.file.footer.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates_c/268668473536502a19a3714f04fd4da4f1afc4e9_0.file.footer.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/smarty/templates_c/5b0af3800d91d8f01c288399d59d02358ca112d6_0.file.breadcumb.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates_c/5b0af3800d91d8f01c288399d59d02358ca112d6_0.file.breadcumb.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/smarty/templates_c/5df9bf74b00e7d8b88a3c19d23290841c9bb69ff_0.file.layout-auth.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates_c/5df9bf74b00e7d8b88a3c19d23290841c9bb69ff_0.file.layout-auth.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/smarty/templates_c/6373d57806be464541b525a680932470cab396c0_0.file.left-sidebar.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates_c/6373d57806be464541b525a680932470cab396c0_0.file.left-sidebar.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/smarty/templates_c/cd00f2bdab2498dd866ecb1b5c1c0a6616a631a5_0.file.v_index.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates_c/cd00f2bdab2498dd866ecb1b5c1c0a6616a631a5_0.file.v_index.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/smarty/templates_c/e66ac004d768d7c0de273142cd855a5f9ecb2416_0.file.head.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates_c/e66ac004d768d7c0de273142cd855a5f9ecb2416_0.file.head.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/views/v_index.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/admin/views/v_index.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,20 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="C_register.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/controllers/C_register.php">
+      <file leaf-file-name="topbar.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/smarty/templates/topbar.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="24" column="105" selection-start-line="24" selection-start-column="105" selection-end-line="24" selection-end-column="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="v_register.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/views/v_register.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="57" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="57" />
+            <state relative-caret-position="216">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -58,6 +76,11 @@
       <find>Supporting in various languages and provide features for connecting data between different countries</find>
       <find>dropdown-item</find>
       <find>invoi</find>
+      <find>compon</find>
+      <find>#password</find>
+      <find>basic</find>
+      <find>updateUs</find>
+      <find>deleteUser</find>
     </findStrings>
     <replaceStrings>
       <replace>/public/images/</replace>
@@ -74,35 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/v_other_service.tpl" />
-        <option value="$PROJECT_DIR$/controllers/C_other_service.php" />
-        <option value="$PROJECT_DIR$/models/m_other_service.php" />
-        <option value="$PROJECT_DIR$/controllers/C_notice.php" />
-        <option value="$PROJECT_DIR$/views/v_notice.tpl" />
-        <option value="$PROJECT_DIR$/models/m_news.php" />
-        <option value="$PROJECT_DIR$/models/m_notice.php" />
-        <option value="$PROJECT_DIR$/controllers/C_news.php" />
-        <option value="$PROJECT_DIR$/views/v_news.tpl" />
-        <option value="$PROJECT_DIR$/models/m_qa.php" />
-        <option value="$PROJECT_DIR$/controllers/C_qa.php" />
-        <option value="$PROJECT_DIR$/views/v_qa.tpl" />
-        <option value="$PROJECT_DIR$/controllers/c_notice.php" />
-        <option value="$PROJECT_DIR$/controllers/c_news.php" />
-        <option value="$PROJECT_DIR$/controllers/c_other_service.php" />
-        <option value="$PROJECT_DIR$/controllers/c_qa.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/news.php" />
-        <option value="$PROJECT_DIR$/notice.php" />
-        <option value="$PROJECT_DIR$/order-service.php" />
-        <option value="$PROJECT_DIR$/qa.php" />
-        <option value="$PROJECT_DIR$/chart-of-service-configuration.php" />
-        <option value="$PROJECT_DIR$/expected-effects.php" />
-        <option value="$PROJECT_DIR$/views/v_effects.tpl" />
-        <option value="$PROJECT_DIR$/controllers/c_functions.php" />
-        <option value="$PROJECT_DIR$/controllers/c_main_functions.php" />
-        <option value="$PROJECT_DIR$/main-functions.php" />
-        <option value="$PROJECT_DIR$/amnote-for-accounting-firm.php" />
-        <option value="$PROJECT_DIR$/views/v_how_to_buy_program.tpl" />
         <option value="$PROJECT_DIR$/controllers/c_how_to_buy_program.php" />
         <option value="$PROJECT_DIR$/how-to-buy-program.php" />
         <option value="$PROJECT_DIR$/views/v_index.tpl" />
@@ -121,10 +115,39 @@
         <option value="$PROJECT_DIR$/views/v_main_functions.tpl" />
         <option value="$PROJECT_DIR$/admin/models/config.php" />
         <option value="$PROJECT_DIR$/admin/controllers/sanitize_input.php" />
-        <option value="$PROJECT_DIR$/admin/models/m_register.php" />
-        <option value="$PROJECT_DIR$/admin/controllers/sanitize.php" />
         <option value="$PROJECT_DIR$/admin/views/v_register.tpl" />
+        <option value="$PROJECT_DIR$/admin/views/v_login.tpl" />
+        <option value="$PROJECT_DIR$/admin/controllers/check_login.php" />
+        <option value="$PROJECT_DIR$/admin/controllers/C_index.php" />
+        <option value="$PROJECT_DIR$/admin/models/m_logout.php" />
+        <option value="$PROJECT_DIR$/admin/logout.php" />
+        <option value="$PROJECT_DIR$/admin/controllers/c_logout.php" />
+        <option value="$PROJECT_DIR$/admin/controllers/sanitize.php" />
         <option value="$PROJECT_DIR$/admin/controllers/C_register.php" />
+        <option value="$PROJECT_DIR$/admin/controllers/C_login.php" />
+        <option value="$PROJECT_DIR$/admin/controllers/check_session.php" />
+        <option value="$PROJECT_DIR$/admin/views/v_index.tpl" />
+        <option value="$PROJECT_DIR$/admin/controllers/c_index.php" />
+        <option value="$PROJECT_DIR$/admin/users.php" />
+        <option value="$PROJECT_DIR$/admin/smarty/templates/layout-auth.tpl" />
+        <option value="$PROJECT_DIR$/admin/smarty/templates/footer.tpl" />
+        <option value="$PROJECT_DIR$/admin/smarty/templates/left-sidebar.tpl" />
+        <option value="$PROJECT_DIR$/admin/smarty/templates/breadcumb.tpl" />
+        <option value="$PROJECT_DIR$/admin/models/ajax/ajax_add_user.php" />
+        <option value="$PROJECT_DIR$/admin/smarty/templates/head.tpl" />
+        <option value="$PROJECT_DIR$/admin/models/m_register.php" />
+        <option value="$PROJECT_DIR$/admin/controllers/c_register.php" />
+        <option value="$PROJECT_DIR$/admin/models/m_login.php" />
+        <option value="$PROJECT_DIR$/admin/models/crypt_password.php" />
+        <option value="$PROJECT_DIR$/admin/models/m_index.php" />
+        <option value="$PROJECT_DIR$/admin/controllers/c_users.php" />
+        <option value="$PROJECT_DIR$/admin/models/m_users.php" />
+        <option value="$PROJECT_DIR$/admin/models/ajax/check_permission.php" />
+        <option value="$PROJECT_DIR$/admin/models/ajax/update_user.php" />
+        <option value="$PROJECT_DIR$/admin/models/ajax/add_user.php" />
+        <option value="$PROJECT_DIR$/admin/views/v_users.tpl" />
+        <option value="$PROJECT_DIR$/admin/models/ajax/delete_user.php" />
+        <option value="$PROJECT_DIR$/admin/smarty/templates/topbar.tpl" />
       </list>
     </option>
   </component>
@@ -142,7 +165,9 @@
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -165,13 +190,14 @@
               <item name="project_amnote" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_amnote" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="smarty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project_amnote" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_amnote" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="smarty" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -229,12 +255,12 @@
       <workItem from="1534307495778" duration="9662000" />
       <workItem from="1534331295073" duration="118000" />
       <workItem from="1534338924269" duration="4031000" />
-      <workItem from="1534375170729" duration="5398000" />
+      <workItem from="1534375170729" duration="37032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25972000" />
+    <option name="totallyTimeSpent" value="57606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -249,7 +275,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32965517" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32965517" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -269,202 +295,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/v_other_service.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/v_notice.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" selection-start-line="17" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/m_notice.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/m_other_service.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="1" lean-forward="true" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/m_news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="55" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/m_qa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/v_qa.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/c_notice.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/c_news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/c_other_service.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/c_qa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Smarty_amnote.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notice.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-service.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/layout.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty/templates/body.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/v_news.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="77" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chart-of-service-configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expected-effects.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/c_main_functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amnote-for-accounting-firm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/c_how_to_buy_program.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/how-to-buy-program.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/v_index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="243" column="65" selection-start-line="243" selection-start-column="65" selection-end-line="243" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/m_index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -556,16 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/models/database.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/models/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/password/password.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -587,34 +411,247 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/models/m_register.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/_types.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="233">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/database.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/smarty/templates/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/v_login.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controllers/sanitize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/views/v_index.tpl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/controllers/sanitize.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state relative-caret-position="240">
+          <caret line="10" lean-forward="true" selection-end-line="10" />
+          <folding>
+            <element signature="e#273#277#0#HTML" expanded="true" />
+            <element signature="e#321#325#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" lean-forward="true" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/smarty/templates/layout-auth.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/smarty/templates/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/smarty/templates/left-sidebar.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/smarty/templates/breadcumb.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controllers/c_register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/smarty/templates/head.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/crypt_password.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/m_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/m_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/m_logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controllers/c_logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controllers/c_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controllers/c_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controllers/c_users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/m_register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" selection-start-line="13" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/m_users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controllers/check_session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/views/v_register.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="57" />
+        <state relative-caret-position="413">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/controllers/C_register.php">
+    <entry file="file://$PROJECT_DIR$/admin/models/ajax/check_permission.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="24" column="105" selection-start-line="24" selection-start-column="105" selection-end-line="24" selection-end-column="105" />
+        <state relative-caret-position="168">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/ajax/add_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/ajax/update_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/ajax/delete_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/v_users.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="166" column="34" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
+          <folding>
+            <element signature="n#div#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/smarty/templates/topbar.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>

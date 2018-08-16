@@ -9,14 +9,14 @@ class M_register extends database{
         return $this->loadRow(array($email));
     }
 
-    public function addUser($full_name, $email, $password){
+    public function addUser($full_name, $email, $password, $permission){
         //crypt password
         $crypt = new Crypt();
         $password_hash = $crypt->crypt_password($password);
         //Insert
-        $sql = "INSERT INTO users(full_name, email, password) VALUES ( ?, ?, ? )";
+        $sql = "INSERT INTO users(full_name, email, password, permission) VALUES ( ?, ?, ?, ? )";
         $this->setQuery($sql);
-        return $this->execute(array($full_name, $email, $password_hash));
+        return $this->execute(array($full_name, $email, $password_hash, $permission));
     }
 }
 ?>
