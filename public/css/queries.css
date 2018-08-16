@@ -1,0 +1,12 @@
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    .section-home {
+        height: 50vh;
+    }
+    .section-home h3 {
+        font-size: 18px;
+    }
+    .section-features{
+        padding-top: 40vh;
+    }
+}
