@@ -26,6 +26,12 @@
                         <span> Manager Users </span>
                     </a>
                 </li>
+                <li>
+                    <a href="accounting-firm">
+                        <i class="fe-git-merge"></i>
+                        <span> Accounting Firm </span>
+                    </a>
+                </li>
 
             </ul>
 

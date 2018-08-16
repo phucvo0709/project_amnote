@@ -10,7 +10,7 @@
                 <div class="service-news">
                     <ul class="list-group-striped">
                         {foreach $accounting_firms as $accounting_firm}
-                            <li class="list-group-item"><b>{$accounting_firm->id} .</b> {$accounting_firm->content}</li>
+                            <li class="list-group-item"><b>{counter} .</b> {$accounting_firm->content}</li>
                         {/foreach}
                     </ul>
                 </div>
