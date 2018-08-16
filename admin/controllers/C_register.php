@@ -8,19 +8,22 @@ class C_register
         include ("sanitize.php");
         $sanitize = new Sanitize();
         $m_register = new M_register();
-        $alert = '';
+        $alert = null;
+        $errors = null;
         if(isset($_POST['btn_register'])){
             $full_name = $sanitize->sanitize_input($_POST['full_name']);
             $email = $sanitize->sanitize_input($_POST['email']);
-            $password = $sanitize->sanitize_input($_POST['password']);
-            if($m_register->validateEmail($email)){
-                $alert = 'Email already exist';
-            }else{
-                $register = $m_register->register($full_name, $email, $password);
-                if(!$register){
-                    $alert = 'Email already exist';
+            $password = $sanitize->sanitize_password($_POST['password'], $errors);
+            if($errors === null){
+                if($m_register->validateEmail($email)){
+                    $alert = "<p class='text-warning mt-2'>Email already exist</p>";
                 }else{
-                    $alert = 'Register success';
+                    $register = $m_register->register($full_name, $email, $password);
+                    if(!$register){
+                        $alert = "<p class='text-danger mt-2'>Email already exist</p>";
+                    }else{
+                        $alert = "<p class='text-success mt-2'>Register Success <a href='login'>Login</a></p>";
+                    }
                 }
             }
         }
@@ -31,6 +34,7 @@ class C_register
         $view = "views/v_register.tpl";
         $smarty->assign("title",$title);
         $smarty->assign("alert",$alert);
+        $smarty->assign("errors", $errors);
         $smarty->assign("view",$view);
         $smarty->display("layout-auth.tpl");
     }

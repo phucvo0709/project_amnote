@@ -6,32 +6,42 @@
                 <div class="card">
                     <div class="card-body p-4">
 
-                        <div class="text-center w-75 m-auto">
+                        <div class="text-center m-auto">
                             <a href="index.html">
                                 <span><img src="public/assets/images/logo.png" alt="" height="22"></span>
                             </a>
-                            {if {$alert} == null}
-                                <p class="text-muted mb-4 mt-3">Don't have an account? Create free account</p>
+                            <div class="mt-2 mb-2">
+                            {if isset($errors)}
+                                {foreach $errors as $error}
+                                    <p class="text-danger mt-2">{$error}</p>
+                                {/foreach}
                             {else}
-                                <p class="text-warning mb-4 mt-3">{$alert}</p>
+                                {if {$alert} == null}
+                                    <p class="text-muted mt-2">Don't have an account? Create free account</p>
+                                {else}
+                                    {$alert}
+                                {/if}
                             {/if}
+                            </div>
                         </div>
 
                         <form method="post">
                             <div class="form-group mb-3">
                                 <label for="full_name">Full Name</label>
                                 <input class="form-control" type="text" id="full_name" name="full_name"
-                                       value="{if isset($full_name)}{$full_name}{/if}" placeholder="Enter your name" required>
+                                       value="{if isset($smarty.post.btn_register)}{$smarty.post.full_name}{/if}" placeholder="Enter your name" required>
                             </div>
 
                             <div class="form-group mb-3">
                                 <label for="email">Email address</label>
-                                <input class="form-control" type="email" id="email" name="email" required placeholder="Enter your email">
+                                <input class="form-control" type="email" id="email" name="email" required
+                                       value="{if isset($smarty.post.btn_register)}{$smarty.post.email}{/if}" placeholder="Enter your email">
                             </div>
 
                             <div class="form-group mb-3">
                                 <label for="password">Password</label>
-                                <input class="form-control" type="password" required id="password" name="password" placeholder="Enter your password">
+                                <input class="form-control" type="password" id="password" name="password"
+                                       placeholder="Enter your password" required>
                             </div>
 
                             <div class="form-group mb-0 text-center">
