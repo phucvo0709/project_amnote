@@ -8,7 +8,7 @@ class Sanitize
     }
     public function sanitize_password($password, &$errors){
         $errors_init = $errors;
-
+        $password = strip_tags($password);
         if(strlen($password) < 8){
             $errors[] = "Password must be greater than 8 characters";
         }
@@ -18,7 +18,10 @@ class Sanitize
         if (!preg_match("#[a-zA-Z]+#", $password)) {
             $errors[] = "Password must include at least one letter!";
         }
-
-        return ($errors == $errors_init);
+        if($errors !== null) {
+            return ($errors == $errors_init);
+        }else{
+            return $password;
+        }
     }
 }

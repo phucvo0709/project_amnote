@@ -6,35 +6,41 @@
 
                     <div class="card-body p-4">
 
-                        <div class="text-center w-75 m-auto">
-                            <a href="index.html">
+                        <div class="text-center m-auto">
+                            <a href="index">
                                 <span><img src="public/assets/images/logo.png" alt="" height="22"></span>
                             </a>
-                            <p class="text-muted mb-4 mt-3">Enter your email address and password to access admin panel.</p>
+                            <div class="mt-2 mb-2">
+                                {if isset($errors)}
+                                    {foreach $errors as $error}
+                                        <p class="text-danger mt-2">{$error}</p>
+                                    {/foreach}
+                                {else}
+                                    {if {$alert} == null}
+                                        <p class="text-muted mt-2">Enter your email and password to access admin panel.</p>
+                                    {else}
+                                        {$alert}
+                                    {/if}
+                                {/if}
+                            </div>
                         </div>
 
-                        <form action="#">
+                        <form method="post">
 
                             <div class="form-group mb-3">
-                                <label for="emailaddress">Email address</label>
-                                <input class="form-control" type="email" id="emailaddress" required="" placeholder="Enter your email">
+                                <label for="email">Email address</label>
+                                <input class="form-control" type="email" id="email" name="email" required
+                                       value="{if isset($smarty.post.btn_login)}{$smarty.post.email}{/if}" placeholder="Enter your email">
                             </div>
 
                             <div class="form-group mb-3">
-                                <a href="pages-recoverpw.html" class="text-muted float-right"><small></small></a>
                                 <label for="password">Password</label>
-                                <input class="form-control" type="password" required="" id="password" placeholder="Enter your password">
-                            </div>
-
-                            <div class="form-group mb-3">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="checkbox-signin" checked>
-                                    <label class="custom-control-label" for="checkbox-signin">Remember me</label>
-                                </div>
+                                <input class="form-control" type="password" id="password" name="password"
+                                       placeholder="Enter your password" required>
                             </div>
 
                             <div class="form-group mb-0 text-center">
-                                <button class="btn btn-primary btn-block" type="submit"> Log In </button>
+                                <button class="btn btn-primary btn-block" type="submit" name="btn_login"> Log In </button>
                             </div>
 
                         </form>
@@ -44,8 +50,8 @@
 
                 <div class="row mt-3">
                     <div class="col-12 text-center">
-                        <p class="text-muted"> <a href="pages-register.html" class="text-muted ml-1">Forgot your password?</a></p>
-                        <p class="text-muted">Don't have an account? <a href="pages-register.html" class="text-dark ml-1"><b>Sign Up</b></a></p>
+                        {*<p class="text-muted"> <a href="pages-register.html" class="text-muted ml-1">Forgot your password?</a></p>*}
+                        <p class="text-muted">Don't have an account? <a href="register" class="text-dark ml-1"><b>Sign Up</b></a></p>
                     </div> <!-- end col -->
                 </div>
                 <!-- end row -->

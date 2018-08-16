@@ -1,5 +1,6 @@
 <?php
 require_once("database.php");
+include ("crypt_password.php");
 class M_register extends database{
 
     public function validateEmail($email){
@@ -7,19 +8,15 @@ class M_register extends database{
         $this->setQuery($sql);
         return $this->loadRow(array($email));
     }
-    public function crypt_password($password){
-        return password_hash($password, PASSWORD_BCRYPT);
-    }
-    private function addUser($full_name, $email, $password){
+
+    public function addUser($full_name, $email, $password){
         //crypt password
-        $password = $this->crypt_password($password);
+        $crypt = new Crypt();
+        $password_hash = $crypt->crypt_password($password);
         //Insert
         $sql = "INSERT INTO users(full_name, email, password) VALUES ( ?, ?, ? )";
         $this->setQuery($sql);
-        return $this->execute(array($full_name, $email, $password));
-    }
-    public function register($full_name, $email, $password){
-        return $this->addUser($full_name, $email, $password);
+        return $this->execute(array($full_name, $email, $password_hash));
     }
 }
 ?>

@@ -1,4 +1,6 @@
 <?php
+include('check_session.php');
+
 class C_index
 {
     public function show()

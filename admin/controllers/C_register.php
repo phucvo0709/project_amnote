@@ -1,4 +1,11 @@
 <?php
+session_start();
+if (isset($_SESSION['id'])) {
+    //If the user is not logged in, redirect the website to the login page
+    header('Location: index');
+    exit();
+}
+
 class C_register
 {
     public function show()
@@ -18,7 +25,7 @@ class C_register
                 if($m_register->validateEmail($email)){
                     $alert = "<p class='text-warning mt-2'>Email already exist</p>";
                 }else{
-                    $register = $m_register->register($full_name, $email, $password);
+                    $register = $m_register->addUser($full_name, $email, $password);
                     if(!$register){
                         $alert = "<p class='text-danger mt-2'>Email already exist</p>";
                     }else{
