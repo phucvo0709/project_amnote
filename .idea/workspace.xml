@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d5b46c7-0181-4a64-94b9-7c9a26f78ec0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/controllers/c_other_services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/models/ajax/add_service.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/models/ajax/delete_service.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/models/ajax/update_service.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/models/m_other_services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/other-services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/views/v_other_services.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/models/ajax/add_firm.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/models/ajax/add_firm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/smarty/templates/left-sidebar.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates/left-sidebar.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/smarty/templates_c/6373d57806be464541b525a680932470cab396c0_0.file.left-sidebar.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates_c/6373d57806be464541b525a680932470cab396c0_0.file.left-sidebar.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/smarty/templates_c/7f4e07c1d8d3ebe9254fe5af5019a8df71a31b80_0.file.v_accounting_firm.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates_c/7f4e07c1d8d3ebe9254fe5af5019a8df71a31b80_0.file.v_accounting_firm.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/views/v_accounting_firm.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/admin/views/v_accounting_firm.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/c_other_service.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/c_other_service.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smarty/templates_c/31bc43ccaa8de29cea54c17f5c76bea092d3e5a7_0.file.v_order_service.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/smarty/templates_c/31bc43ccaa8de29cea54c17f5c76bea092d3e5a7_0.file.v_order_service.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smarty/templates_c/ce7cb267eef6c8693be7a1ec93270552355dcbfb_0.file.v_other_service.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/smarty/templates_c/ce7cb267eef6c8693be7a1ec93270552355dcbfb_0.file.v_other_service.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/v_other_service.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_other_service.tpl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="other-services.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/other-services.php">
+      <file leaf-file-name="v_other_service.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/v_other_service.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+            <state relative-caret-position="264">
+              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -84,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin/views/v_login.tpl" />
         <option value="$PROJECT_DIR$/admin/controllers/check_login.php" />
         <option value="$PROJECT_DIR$/admin/controllers/C_index.php" />
         <option value="$PROJECT_DIR$/admin/models/m_logout.php" />
@@ -135,6 +120,7 @@
         <option value="$PROJECT_DIR$/admin/controllers/c_other_services.php" />
         <option value="$PROJECT_DIR$/admin/models/m_other_services.php" />
         <option value="$PROJECT_DIR$/admin/other-services.php" />
+        <option value="$PROJECT_DIR$/views/v_other_service.tpl" />
       </list>
     </option>
   </component>
@@ -147,7 +133,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="5" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
@@ -171,7 +157,7 @@
             <path>
               <item name="project_amnote" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_amnote" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -232,12 +218,12 @@
       <workItem from="1534307495778" duration="9662000" />
       <workItem from="1534331295073" duration="118000" />
       <workItem from="1534338924269" duration="4031000" />
-      <workItem from="1534375170729" duration="40524000" />
+      <workItem from="1534375170729" duration="40628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61098000" />
+    <option name="totallyTimeSpent" value="61202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -248,7 +234,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32965517" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32965517" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -276,13 +262,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/_types.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/models/database.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -626,6 +605,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/v_other_service.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
         </state>
       </provider>
     </entry>

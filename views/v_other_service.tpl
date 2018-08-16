@@ -12,7 +12,7 @@
                         <p><strong class="service1">AMnote Vietnam is professional in service of accounting and administration as follow:</strong></p>
                         <ul class="service02">
                             {foreach $other_services as $other_service}
-                                <li>{$other_service->title}</li>
+                                <li>{$other_service->content}</li>
                             {/foreach}
                         </ul>
                         <div class="order-more text-center">
