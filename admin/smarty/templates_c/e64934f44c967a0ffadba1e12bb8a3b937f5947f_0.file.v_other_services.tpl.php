@@ -1,9 +1,35 @@
+<?php
+/* Smarty version 3.1.30, created on 2018-08-16 14:16:13
+  from "C:\xampp\htdocs\project_amnote\admin\views\v_other_services.tpl" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5b756b0d8c6713_29907175',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'e64934f44c967a0ffadba1e12bb8a3b937f5947f' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\project_amnote\\admin\\views\\v_other_services.tpl',
+      1 => 1534420876,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5b756b0d8c6713_29907175 (Smarty_Internal_Template $_smarty_tpl) {
+if (!is_callable('smarty_function_counter')) require_once 'C:\\xampp\\htdocs\\project_amnote\\admin\\smarty\\libs\\plugins\\function.counter.php';
+?>
 <div class="row">
     <div class="col-12">
         <div class="card">
             <div class="card-body">
                 <div class="d-flex">
-                    <div class="mr-auto p-2"><h4 class="header-title mb-4">{$title}</h4></div>
+                    <div class="mr-auto p-2"><h4 class="header-title mb-4"><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
+</h4></div>
                     <div class="ml-auto p-2"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addService">Add Other Service</button></div>
                 </div>
                 <!-- modal add user -->
@@ -44,36 +70,51 @@
                     </thead>
 
                     <tbody>
-                    {foreach $services as $service}
-                        <tr id="delete_service{$service->id}">
-                            <td>{counter}</td>
-                            <td><span class="overflow-text">{$service->content}</span></td>
+                    <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['services']->value, 'service');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['service']->value) {
+?>
+                        <tr id="delete_service<?php echo $_smarty_tpl->tpl_vars['service']->value->id;?>
+">
+                            <td><?php echo smarty_function_counter(array(),$_smarty_tpl);?>
+</td>
+                            <td><span class="overflow-text"><?php echo $_smarty_tpl->tpl_vars['service']->value->content;?>
+</span></td>
                             <td>
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#updateService{$service->id}">Update</button>
-                                <button type="button" class="btn btn-danger" onClick="deleteService({$service->id})">Delete</button>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#updateService<?php echo $_smarty_tpl->tpl_vars['service']->value->id;?>
+">Update</button>
+                                <button type="button" class="btn btn-danger" onClick="deleteService(<?php echo $_smarty_tpl->tpl_vars['service']->value->id;?>
+)">Delete</button>
                             </td>
                             <!-- modal update -->
-                            <div id="updateService{$service->id}" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div id="updateService<?php echo $_smarty_tpl->tpl_vars['service']->value->id;?>
+" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             <h4 class="modal-title" id="myModalLabel">Update Service</h4>
                                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                         </div>
-                                        <form method="post" id="update_service_form{$service->id}">
+                                        <form method="post" id="update_service_form<?php echo $_smarty_tpl->tpl_vars['service']->value->id;?>
+">
                                             <div class="modal-body">
-                                                <p class="error-msg-update{$service->id}"></p>
-                                                <input type="hidden" name="id" value="{$service->id}">
+                                                <p class="error-msg-update<?php echo $_smarty_tpl->tpl_vars['service']->value->id;?>
+"></p>
+                                                <input type="hidden" name="id" value="<?php echo $_smarty_tpl->tpl_vars['service']->value->id;?>
+">
                                                 <div class="form-group">
                                                     <label>Service</label>
                                                     <input type="text" class="form-control" name="content" placeholder="Enter Service"
-                                                           value="{$service->content}" required>
+                                                           value="<?php echo $_smarty_tpl->tpl_vars['service']->value->content;?>
+" required>
                                                 </div>
                                             </div>
                                             <div class="modal-footer">
                                                 <div class="form-group mb-3">
                                                     <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
-                                                    <button type="submit" class="btn btn-primary" onClick="updateService({$service->id})">Save changes</button>
+                                                    <button type="submit" class="btn btn-primary" onClick="updateService(<?php echo $_smarty_tpl->tpl_vars['service']->value->id;?>
+)">Save changes</button>
                                                 </div>
                                             </div>
                                         </form>
@@ -83,7 +124,12 @@
                             </div><!-- /.modal -->
 
                         </tr>
-                    {/foreach}
+                    <?php
+}
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
+?>
+
                     </tbody>
                 </table>
 
@@ -92,9 +138,9 @@
     </div><!-- end col-->
 </div>
 <!-- end row-->
-<script>
+<?php echo '<script'; ?>
+>
     $(document).ready(function(){
-        $("#table-services").DataTable();
         $("#add_service_form").on("submit", function(e){
             e.preventDefault();
             $.ajax({
@@ -132,4 +178,6 @@
             }
         })
     }
-</script>
+<?php echo '</script'; ?>
+><?php }
+}

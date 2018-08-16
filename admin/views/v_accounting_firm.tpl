@@ -94,7 +94,7 @@
 <!-- end row-->
 <script>
     $(document).ready(function(){
-        $("#table-firms").DataTable()
+        $("#table-firms").DataTable();
         $("#add_firm_form").on("submit", function(e){
             e.preventDefault();
             $.ajax({
