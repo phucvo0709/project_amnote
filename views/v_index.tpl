@@ -252,23 +252,42 @@
             <h3 class="feature-heading text-center contact-heading"><span>Contact</span></h3>
         </div>
         <div class="container">
-            <form method="post">
+            <form method="post" id="send_contact">
                 <ul class="listForm row">
                     <li class="col-lg-6">
-                        <input type="text" name="your-name" value="" size="40" class="form-control mb-4" aria-required="true" aria-invalid="false" placeholder="Enter your full name">
+                        <input type="text" name="full_name" value="" size="40" class="form-control mb-4"
+                                placeholder="Enter your full name" required>
                     </li>
                     <li class="col-lg-6">
-                        <input type="email" name="your-email" value="" size="40" class="form-control mb-4" aria-required="true" aria-invalid="false" placeholder="Enter your email address">
+                        <input type="email" name="email" value="" size="40"
+                               class="form-control mb-4" placeholder="Enter your email address" required>
                     </li>
                     <li class="push col-lg-12">
-                        <textarea name="your-message" cols="40" rows="6" class="form-control mb-4" aria-required="true" aria-invalid="false" placeholder="Write something for us"></textarea>
+                        <textarea name="content" class="form-control mb-4"
+                                  placeholder="Write something for us" required></textarea>
                     </li>
                     <li class="push text-center col-lg-12">
                         <input type="submit" value="Send message" class="btn button-custom btn-lg">
                     </li>
                 </ul>
-                <div class="wpcf7-response-output wpcf7-display-none"></div></form>
+            </form>
         </div>
     </div>
 </section>
 <div class="clearfix"></div>
+<script>
+    $(document).ready(function(){
+        $("#send_contact").on("submit", function(e){
+            e.preventDefault();
+            $.ajax({
+                url: "models/ajax/send_contact",
+                method: "POST",
+                data: $("#send_contact").serialize(),
+                success: function(data){
+                    alert('We have received your information and will contact you shortly');
+                    window.location = 'index';
+                }
+            })
+        })
+    });
+</script>

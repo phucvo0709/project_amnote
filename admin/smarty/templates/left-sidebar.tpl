@@ -44,6 +44,18 @@
                         <span> Prices </span>
                     </a>
                 </li>
+                <li>
+                    <a href="efficiencies">
+                        <i class="fe-copy"></i>
+                        <span> Efficiencies </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="qa">
+                        <i class="fe-help-circle"></i>
+                        <span> Q&A </span>
+                    </a>
+                </li>
 
             </ul>
 

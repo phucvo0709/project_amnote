@@ -8,7 +8,7 @@
                     <div class="col-lg-12">
                         <div class="content-qa">
                             <p>
-                                <i>{$qa->id}</i> {$qa->title}
+                                <i>{counter}</i> {$qa->title}
                             </p>
                             {$qa->content}
                         </div>
@@ -19,3 +19,10 @@
         </div>
     </div>
 </div>
+
+<script>
+
+    $(document).ready(function(){
+        $('.content-qa ul li').prepend('<li class="pe-7s-angle-down"></li>') ;
+    })
+</script>

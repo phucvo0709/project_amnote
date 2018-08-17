@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-08-17 06:13:26
+/* Smarty version 3.1.30, created on 2018-08-17 12:35:05
   from "C:\xampp\htdocs\project_amnote\admin\smarty\templates\left-sidebar.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5b764b664dd461_81772029',
+  'unifunc' => 'content_5b76a4d95bb4d2_46588075',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6373d57806be464541b525a680932470cab396c0' => 
     array (
       0 => 'C:\\xampp\\htdocs\\project_amnote\\admin\\smarty\\templates\\left-sidebar.tpl',
-      1 => 1534479203,
+      1 => 1534502104,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b764b664dd461_81772029 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b76a4d95bb4d2_46588075 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!-- ========== Left Sidebar Start ========== -->
 <div class="left-side-menu">
@@ -66,6 +66,18 @@ function content_5b764b664dd461_81772029 (Smarty_Internal_Template $_smarty_tpl)
                     <a href="prices">
                         <i class="fe-dollar-sign"></i>
                         <span> Prices </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="efficiencies">
+                        <i class="fe-copy"></i>
+                        <span> Efficiencies </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="qa">
+                        <i class="fe-help-circle"></i>
+                        <span> Q&A </span>
                     </a>
                 </li>
 

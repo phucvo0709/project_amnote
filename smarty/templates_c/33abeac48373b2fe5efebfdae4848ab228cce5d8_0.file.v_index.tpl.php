@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-08-15 15:41:20
+/* Smarty version 3.1.30, created on 2018-08-17 14:16:46
   from "C:\xampp\htdocs\project_amnote\views\v_index.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5b742d804719e8_65752481',
+  'unifunc' => 'content_5b76bcaee7c0f4_45552191',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '33abeac48373b2fe5efebfdae4848ab228cce5d8' => 
     array (
       0 => 'C:\\xampp\\htdocs\\project_amnote\\views\\v_index.tpl',
-      1 => 1534340478,
+      1 => 1534508189,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b742d804719e8_65752481 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b76bcaee7c0f4_45552191 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <section class="section-home image-bg">
     <div class="container">
@@ -308,25 +308,45 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
             <h3 class="feature-heading text-center contact-heading"><span>Contact</span></h3>
         </div>
         <div class="container">
-            <form method="post">
+            <form method="post" id="send_contact">
                 <ul class="listForm row">
                     <li class="col-lg-6">
-                        <input type="text" name="your-name" value="" size="40" class="form-control mb-4" aria-required="true" aria-invalid="false" placeholder="Enter your full name">
+                        <input type="text" name="full_name" value="" size="40" class="form-control mb-4"
+                                placeholder="Enter your full name" required>
                     </li>
                     <li class="col-lg-6">
-                        <input type="email" name="your-email" value="" size="40" class="form-control mb-4" aria-required="true" aria-invalid="false" placeholder="Enter your email address">
+                        <input type="email" name="email" value="" size="40"
+                               class="form-control mb-4" placeholder="Enter your email address" required>
                     </li>
                     <li class="push col-lg-12">
-                        <textarea name="your-message" cols="40" rows="6" class="form-control mb-4" aria-required="true" aria-invalid="false" placeholder="Write something for us"></textarea>
+                        <textarea name="content" class="form-control mb-4"
+                                  placeholder="Write something for us" required></textarea>
                     </li>
                     <li class="push text-center col-lg-12">
                         <input type="submit" value="Send message" class="btn button-custom btn-lg">
                     </li>
                 </ul>
-                <div class="wpcf7-response-output wpcf7-display-none"></div></form>
+            </form>
         </div>
     </div>
 </section>
 <div class="clearfix"></div>
-<?php }
+<?php echo '<script'; ?>
+>
+    $(document).ready(function(){
+        $("#send_contact").on("submit", function(e){
+            e.preventDefault();
+            $.ajax({
+                url: "models/ajax/send_contact",
+                method: "POST",
+                data: $("#send_contact").serialize(),
+                success: function(data){
+                    alert('We have received your information and will contact you shortly');
+                    window.location = 'index';
+                }
+            })
+        })
+    });
+<?php echo '</script'; ?>
+><?php }
 }

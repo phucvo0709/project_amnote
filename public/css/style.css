@@ -483,6 +483,7 @@ article h4 a {
 /*page q&a*/
 .content-qa{
     margin-bottom: 20px;
+    border-bottom: 2px solid gainsboro;
 }
 .content-qa p{
     font-size: 20px;
@@ -512,11 +513,12 @@ article h4 a {
     padding-left: 20px;
     position: relative;
     margin-bottom: 10px;
-    margin-left: 60px;
     line-height: 24px;
 }
-.content-qa ul li i {
-    color: #f2a27f;
+.content-qa ul li:before {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fa7338;
 }
 /*page chart*/
 .section-chart {

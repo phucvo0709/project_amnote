@@ -18,4 +18,14 @@ class M_index extends database
         $this->setQuery($sql);
         return $this->loadAllRows();
     }
+    function add_info($company, $address, $city, $sex, $name, $email, $phone){
+        $sql = "INSERT INTO informations(company, address, city, sex, name, email, phone) VALUES ( ?, ?, ?, ?, ?, ?, ? )";
+        $this->setQuery($sql);
+        return $this->execute(array($company, $address, $city, $sex, $name, $email, $phone));
+    }
+    function add_contact($full_name, $email, $content){
+        $sql = "INSERT INTO contacts(full_name, email, content) VALUES ( ?, ?, ? )";
+        $this->setQuery($sql);
+        return $this->execute(array($full_name, $email, $content));
+    }
 }

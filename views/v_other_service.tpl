@@ -1,5 +1,5 @@
 <div id="inner-page">
-    <div class="container">
+    <div class="container mb-4">
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-title">{$title}</h1>
@@ -15,9 +15,6 @@
                                 <li>{$other_service->content}</li>
                             {/foreach}
                         </ul>
-                        <div class="order-more text-center">
-                            <button type="button" class="btn button-custom">View more</button>
-                        </div>
                     </div>
                 </div>
             </div>
