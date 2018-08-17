@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-08-16 14:16:13
+/* Smarty version 3.1.30, created on 2018-08-16 14:17:23
   from "C:\xampp\htdocs\project_amnote\admin\views\v_other_services.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5b756b0d8c6713_29907175',
+  'unifunc' => 'content_5b756b53226557_96263391',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e64934f44c967a0ffadba1e12bb8a3b937f5947f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\project_amnote\\admin\\views\\v_other_services.tpl',
-      1 => 1534420876,
+      1 => 1534421807,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b756b0d8c6713_29907175 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b756b53226557_96263391 (Smarty_Internal_Template $_smarty_tpl) {
 if (!is_callable('smarty_function_counter')) require_once 'C:\\xampp\\htdocs\\project_amnote\\admin\\smarty\\libs\\plugins\\function.counter.php';
 ?>
 <div class="row">
@@ -141,6 +141,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 <?php echo '<script'; ?>
 >
     $(document).ready(function(){
+        $("#table-services").DataTable();
         $("#add_service_form").on("submit", function(e){
             e.preventDefault();
             $.ajax({

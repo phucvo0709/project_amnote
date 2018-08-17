@@ -33,9 +33,15 @@
                     </a>
                 </li>
                 <li>
-                    <a href="other-services.php">
+                    <a href="other-services">
                         <i class="fe-menu"></i>
                         <span> Other Service </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="prices">
+                        <i class="fe-dollar-sign"></i>
+                        <span> Prices </span>
                     </a>
                 </li>
 

@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d5b46c7-0181-4a64-94b9-7c9a26f78ec0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/admin/views/v_accounting_firm.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/admin/views/v_accounting_firm.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/views/v_other_services.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/admin/views/v_other_services.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/controllers/c_prices.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/models/ajax/add_location.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/models/ajax/add_price.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/models/ajax/delete_location.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/models/ajax/delete_price.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/models/ajax/update_location.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/models/ajax/update_price.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/models/m_prices.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/prices.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/views/v_prices.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/smarty/templates/left-sidebar.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates/left-sidebar.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/smarty/templates_c/6373d57806be464541b525a680932470cab396c0_0.file.left-sidebar.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates_c/6373d57806be464541b525a680932470cab396c0_0.file.left-sidebar.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/smarty/templates_c/7f4e07c1d8d3ebe9254fe5af5019a8df71a31b80_0.file.v_accounting_firm.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates_c/7f4e07c1d8d3ebe9254fe5af5019a8df71a31b80_0.file.v_accounting_firm.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/smarty/templates_c/e64934f44c967a0ffadba1e12bb8a3b937f5947f_0.file.v_other_services.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates_c/e64934f44c967a0ffadba1e12bb8a3b937f5947f_0.file.v_other_services.tpl.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,12 +26,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="v_other_services.tpl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/views/v_other_services.tpl">
+    <leaf>
+      <file leaf-file-name="add_location.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/models/ajax/add_location.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="96" column="26" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
+            <state relative-caret-position="237">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="v_prices.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/views/v_prices.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="183" column="63" selection-start-line="183" selection-start-column="63" selection-end-line="183" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -27,9 +49,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>images/</find>
-      <find>/public</find>
-      <find>public/public/</find>
       <find>&lt;nav</find>
       <find>index.html</find>
       <find>images</find>
@@ -53,6 +72,13 @@
       <find>deleteUser</find>
       <find>add_firm_form</find>
       <find>c_accounting_firm</find>
+      <find>deleteService</find>
+      <find>add_service_form</find>
+      <find>add_price_form</find>
+      <find>updatePrice</find>
+      <find>update_price_form</find>
+      <find>addLocat</find>
+      <find>append-location</find>
     </findStrings>
     <replaceStrings>
       <replace>/public/images/</replace>
@@ -62,6 +88,8 @@
       <replace>public</replace>
       <replace>public/assets/images/</replace>
       <replace>c_other_service</replace>
+      <replace>deletePrice</replace>
+      <replace>add_price_form</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -70,16 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin/controllers/check_login.php" />
-        <option value="$PROJECT_DIR$/admin/controllers/C_index.php" />
-        <option value="$PROJECT_DIR$/admin/models/m_logout.php" />
-        <option value="$PROJECT_DIR$/admin/logout.php" />
-        <option value="$PROJECT_DIR$/admin/controllers/c_logout.php" />
-        <option value="$PROJECT_DIR$/admin/controllers/sanitize.php" />
-        <option value="$PROJECT_DIR$/admin/controllers/C_register.php" />
-        <option value="$PROJECT_DIR$/admin/controllers/C_login.php" />
-        <option value="$PROJECT_DIR$/admin/controllers/check_session.php" />
-        <option value="$PROJECT_DIR$/admin/views/v_index.tpl" />
         <option value="$PROJECT_DIR$/admin/controllers/c_index.php" />
         <option value="$PROJECT_DIR$/admin/smarty/templates/layout-auth.tpl" />
         <option value="$PROJECT_DIR$/admin/smarty/templates/footer.tpl" />
@@ -100,7 +118,6 @@
         <option value="$PROJECT_DIR$/admin/models/ajax/delete_user.php" />
         <option value="$PROJECT_DIR$/admin/smarty/templates/topbar.tpl" />
         <option value="$PROJECT_DIR$/admin/controllers/c_accounting_firm.php" />
-        <option value="$PROJECT_DIR$/admin/accounting-firm.php" />
         <option value="$PROJECT_DIR$/admin/users.php" />
         <option value="$PROJECT_DIR$/admin/public/css/app.min.css" />
         <option value="$PROJECT_DIR$/admin/models/m_accounting_firm.php" />
@@ -113,7 +130,6 @@
         <option value="$PROJECT_DIR$/admin/models/ajax/delete_service.php" />
         <option value="$PROJECT_DIR$/admin/controllers/c_other_service.php" />
         <option value="$PROJECT_DIR$/admin/other-service.php" />
-        <option value="$PROJECT_DIR$/admin/smarty/templates/left-sidebar.tpl" />
         <option value="$PROJECT_DIR$/admin/models/m_other_service.php" />
         <option value="$PROJECT_DIR$/admin/controllers/c_other_services.php" />
         <option value="$PROJECT_DIR$/admin/models/m_other_services.php" />
@@ -121,6 +137,18 @@
         <option value="$PROJECT_DIR$/views/v_other_service.tpl" />
         <option value="$PROJECT_DIR$/admin/views/v_accounting_firm.tpl" />
         <option value="$PROJECT_DIR$/admin/views/v_other_services.tpl" />
+        <option value="$PROJECT_DIR$/admin/controllers/c_prices.php" />
+        <option value="$PROJECT_DIR$/admin/accounting-firm.php" />
+        <option value="$PROJECT_DIR$/admin/prices.php" />
+        <option value="$PROJECT_DIR$/admin/smarty/templates/left-sidebar.tpl" />
+        <option value="$PROJECT_DIR$/admin/models/ajax/add_price.php" />
+        <option value="$PROJECT_DIR$/admin/models/ajax/delete_price.php" />
+        <option value="$PROJECT_DIR$/admin/models/ajax/update_price.php" />
+        <option value="$PROJECT_DIR$/admin/models/ajax/delete_location.php" />
+        <option value="$PROJECT_DIR$/admin/models/m_prices.php" />
+        <option value="$PROJECT_DIR$/admin/models/ajax/update_location.php" />
+        <option value="$PROJECT_DIR$/admin/views/v_prices.tpl" />
+        <option value="$PROJECT_DIR$/admin/models/ajax/add_location.php" />
       </list>
     </option>
   </component>
@@ -133,7 +161,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="5" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
@@ -146,7 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,12 +190,20 @@
               <item name="project_amnote" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_amnote" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_amnote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_amnote" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,8 +214,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\project_amnote\admin\controllers" />
       <recent name="C:\xampp\htdocs\project_amnote\admin\models\ajax" />
+      <recent name="C:\xampp\htdocs\project_amnote\admin\controllers" />
       <recent name="C:\xampp\htdocs\project_amnote\admin\models" />
       <recent name="C:\xampp\htdocs\project_mau\public" />
     </key>
@@ -224,28 +259,28 @@
       <workItem from="1534307495778" duration="9662000" />
       <workItem from="1534331295073" duration="118000" />
       <workItem from="1534338924269" duration="4031000" />
-      <workItem from="1534375170729" duration="40695000" />
+      <workItem from="1534375170729" duration="40788000" />
+      <workItem from="1534477789034" duration="10907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61269000" />
+    <option name="totallyTimeSpent" value="72269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32965517" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32965517" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -254,6 +289,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,97 +304,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/models/database.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/smarty/templates/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/v_login.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/controllers/sanitize.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/v_index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" lean-forward="true" selection-end-line="10" />
-          <folding>
-            <element signature="e#273#277#0#HTML" expanded="true" />
-            <element signature="e#321#325#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" lean-forward="true" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/smarty/templates/layout-auth.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/smarty/templates/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/smarty/templates/breadcumb.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/models/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/controllers/c_register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/smarty/templates/head.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/models/crypt_password.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -366,13 +311,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/models/m_index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/m_index.php" />
     <entry file="file://$PROJECT_DIR$/admin/models/m_logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -481,13 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/models/ajax/update_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="6" lean-forward="true" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/models/ajax/delete_user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -516,13 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/models/ajax/update_firm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="10" lean-forward="true" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/models/ajax/update_service.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -544,38 +469,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/models/ajax/delete_firm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="1" lean-forward="true" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/models/ajax/delete_service.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/accounting-firm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" lean-forward="true" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/smarty/templates/left-sidebar.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/v_users.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2768">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
@@ -616,8 +513,141 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/views/v_other_services.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="96" column="26" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
+        <state relative-caret-position="208">
+          <caret line="100" column="47" lean-forward="true" selection-end-line="134" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/m_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controllers/c_prices.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/accounting-firm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/smarty/templates/left-sidebar.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/ajax/update_firm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/ajax/delete_price.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/ajax/delete_firm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="1" lean-forward="true" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/ajax/update_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="6" lean-forward="true" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/v_users.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="112" column="50" lean-forward="true" selection-start-line="112" selection-start-column="50" selection-end-line="112" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/v_index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="227" selection-start-line="227" selection-end-line="231" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/prices.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/ajax/add_price.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/ajax/update_price.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/ajax/delete_location.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/ajax/update_location.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/core-scripting.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="218" column="31" selection-start-line="218" selection-start-column="30" selection-end-line="218" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/m_prices.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-546">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/v_prices.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="183" column="63" selection-start-line="183" selection-start-column="63" selection-end-line="183" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/ajax/add_location.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
         </state>
       </provider>
     </entry>
