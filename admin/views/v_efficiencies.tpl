@@ -102,7 +102,6 @@
 <!-- end row-->
 <script>
     $(document).ready(function(){
-        // $("#table-efficiencies").DataTable();
         $("#add_efficienci_form").on("submit", function(e){
             e.preventDefault();
             $.ajax({
@@ -135,7 +134,6 @@
             method: "POST",
             data: delete_id,
             success: function(data){
-                console.log(data)
                 $("#delete_efficienci" + id).hide('slow');
             }
         })

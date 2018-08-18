@@ -9,18 +9,16 @@
                         <th>No.</th>
                         <th>Title</th>
                         <th>Author</th>
-                        <th>Date</th>
-                        <th>View</th>
+                        <th>Date upload</th>
                     </tr>
                     </thead>
                     <tbody>
                     {foreach $notices as $notice}
                         <tr>
                             <td>{$notice->id}</td>
-                            <td>{$notice->title}</td>
-                            <td>Koojinyoung</td>
-                            <td>{$notice->time_upload}</td>
-                            <td>{$notice->view}</td>
+                            <td><a href="{$notice->file}" download>{$notice->title}</a></td>
+                            <td>{$notice->full_name}</td>
+                            <td>{$notice->time_upload|date_format:"%D"}</td>
                         </tr>
                     {/foreach}
                     </tbody>
@@ -31,6 +29,8 @@
 </div>
 <script>
     $(document).ready( function () {
-        $('#table-notices').DataTable();
+        $('#table-notices').DataTable({
+            "order": []
+        });
     } );
 </script>

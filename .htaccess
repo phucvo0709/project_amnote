@@ -1,4 +1,10 @@
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule (.*) $1.php [L]
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteRule ^news/([^/]*)-([0-9]+)(.*).htm$ new.php?title=$1&id=$2
+Options -Indexes
+<Files ~ "\.inc$">
+Order Allow,Deny
+Deny from All
+</Files>

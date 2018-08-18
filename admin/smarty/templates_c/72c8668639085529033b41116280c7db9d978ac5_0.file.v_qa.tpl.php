@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-08-17 13:07:00
+/* Smarty version 3.1.30, created on 2018-08-18 07:14:45
   from "C:\xampp\htdocs\project_amnote\admin\views\v_qa.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5b76ac54102d05_74119825',
+  'unifunc' => 'content_5b77ab45884b78_85908068',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '72c8668639085529033b41116280c7db9d978ac5' => 
     array (
       0 => 'C:\\xampp\\htdocs\\project_amnote\\admin\\views\\v_qa.tpl',
-      1 => 1534504015,
+      1 => 1534568684,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b76ac54102d05_74119825 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b77ab45884b78_85908068 (Smarty_Internal_Template $_smarty_tpl) {
 if (!is_callable('smarty_function_counter')) require_once 'C:\\xampp\\htdocs\\project_amnote\\admin\\smarty\\libs\\plugins\\function.counter.php';
 ?>
 <div class="row">

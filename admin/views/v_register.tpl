@@ -7,8 +7,8 @@
                     <div class="card-body p-4">
 
                         <div class="text-center m-auto">
-                            <a href="index.html">
-                                <span><img src="public/assets/images/logo.png" alt="" height="22"></span>
+                            <a href="../.">
+                                <span><img src="./../public/images/logo.png" alt="" height="22"></span>
                             </a>
                             <div class="mt-2 mb-2">
                             {if isset($errors)}

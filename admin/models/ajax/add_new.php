@@ -15,7 +15,6 @@ $time = time();
 $target_dir = "./../../../public/images/news/";
 $target_file = $target_dir . basename($time . $_FILES["image"]["name"]);
 $uploadOk = 1;
-$hinh = "";
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
 if (isset($_FILES['image']))
 {

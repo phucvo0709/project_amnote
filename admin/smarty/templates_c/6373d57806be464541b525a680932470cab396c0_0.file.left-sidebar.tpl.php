@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-08-18 05:06:22
+/* Smarty version 3.1.30, created on 2018-08-18 11:46:04
   from "C:\xampp\htdocs\project_amnote\admin\smarty\templates\left-sidebar.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5b778d2e04b9f0_34949870',
+  'unifunc' => 'content_5b77eadc9a9b09_10535114',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6373d57806be464541b525a680932470cab396c0' => 
     array (
       0 => 'C:\\xampp\\htdocs\\project_amnote\\admin\\smarty\\templates\\left-sidebar.tpl',
-      1 => 1534561577,
+      1 => 1534585562,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b778d2e04b9f0_34949870 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b77eadc9a9b09_10535114 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!-- ========== Left Sidebar Start ========== -->
 <div class="left-side-menu">
@@ -28,12 +28,12 @@ function content_5b778d2e04b9f0_34949870 (Smarty_Internal_Template $_smarty_tpl)
     <div class="slimscroll-menu">
 
         <!-- LOGO -->
-        <a href="index.html" class="logo text-center mb-4">
+        <a href="./../" class="logo text-center mb-4" target="_blank">
                         <span class="logo-lg">
-                            <img src="public/assets/images/logo.png" alt="" height="20">
+                            <img src="./../public/images/logo.png" alt="" height="20">
                         </span>
             <span class="logo-sm">
-                            <img src="public/assets/images/logo-sm.png" alt="" height="24">
+                            <img src="./../public/images/logo.png" alt="" height="24">
                         </span>
         </a>
 
@@ -57,15 +57,9 @@ function content_5b778d2e04b9f0_34949870 (Smarty_Internal_Template $_smarty_tpl)
                     </a>
                 </li>
                 <li>
-                    <a href="accounting-firm">
-                        <i class="fe-git-merge"></i>
-                        <span> Accounting Firm </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="other-services">
-                        <i class="fe-menu"></i>
-                        <span> Other Service </span>
+                    <a href="notices">
+                        <i class="fe-hash"></i>
+                        <span> Notices </span>
                     </a>
                 </li>
                 <li>
@@ -75,9 +69,27 @@ function content_5b778d2e04b9f0_34949870 (Smarty_Internal_Template $_smarty_tpl)
                     </a>
                 </li>
                 <li>
+                    <a href="sliders">
+                        <i class="fe-image"></i>
+                        <span> Sliders </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="accounting-firm">
+                        <i class="fe-git-merge"></i>
+                        <span> Accounting Firm </span>
+                    </a>
+                </li>
+                <li>
                     <a href="efficiencies">
                         <i class="fe-copy"></i>
                         <span> Efficiencies </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="other-services">
+                        <i class="fe-menu"></i>
+                        <span> Other Service </span>
                     </a>
                 </li>
                 <li>

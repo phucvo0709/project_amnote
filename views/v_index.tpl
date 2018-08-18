@@ -9,23 +9,19 @@
             <!-- Modal -->
             <div class="home-slider">
                 <div class="slider-wrapper">
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div id="sliders1" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="public/images/slider/1.png" alt="First slide">
-                            </div>
+                            {foreach $sliders as $slider}
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="public/images/slider/2.png" alt="Second slide">
+                                <img class="d-block w-100" src="{$slider->file}">
                             </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="public/images/slider/3.png" alt="Third slide">
-                            </div>
+                            {/foreach}
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#sliders1" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#sliders1" role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -186,16 +182,11 @@
                 <div class="screenshot-wrapper">
                     <div id="screenshot" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="public/images/slider/1.png" alt="First slide">
-                            </div>
+                            {foreach $sliders as $slider}
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="public/images/slider/2.png" alt="First slide">
+                                <img class="d-block w-100" src="{$slider->file}">
                             </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="public/images/slider/3.png" alt="First slide">
-                            </div>
-
+                            {/foreach}
                         </div>
                         <a class="carousel-control-prev" href="#screenshot" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -277,6 +268,8 @@
 <div class="clearfix"></div>
 <script>
     $(document).ready(function(){
+        $( "#sliders1 .carousel-item" ).first().addClass( "active" );
+        $( "#screenshot .carousel-item" ).first().addClass( "active" );
         $("#send_contact").on("submit", function(e){
             e.preventDefault();
             $.ajax({

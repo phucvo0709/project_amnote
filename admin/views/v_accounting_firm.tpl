@@ -127,7 +127,6 @@
             method: "POST",
             data: delete_id,
             success: function(data){
-                console.log(data)
                 $("#delete_firm" + id).hide('slow');
             }
         })

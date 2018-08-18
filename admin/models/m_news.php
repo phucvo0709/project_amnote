@@ -1,5 +1,6 @@
 <?php
 require_once ("database.php");
+include ('thu_vien.php');
 
 class M_news extends database
 {

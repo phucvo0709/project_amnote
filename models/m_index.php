@@ -8,6 +8,11 @@ class M_index extends database
         $this->setQuery($sql);
         return $this->loadAllRows();
     }
+    public function get_all_slider(){
+        $sql = "SELECT * from sliders ORDER BY id ASC";
+        $this->setQuery($sql);
+        return $this->loadAllRows();
+    }
     function get_all_pricing() {
         $sql = "select * from prices";
         $this->setQuery($sql);

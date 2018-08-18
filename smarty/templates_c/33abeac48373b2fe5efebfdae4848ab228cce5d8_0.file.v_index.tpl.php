@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-08-17 14:16:46
+/* Smarty version 3.1.30, created on 2018-08-18 10:50:41
   from "C:\xampp\htdocs\project_amnote\views\v_index.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5b76bcaee7c0f4_45552191',
+  'unifunc' => 'content_5b77dde184b425_69068397',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '33abeac48373b2fe5efebfdae4848ab228cce5d8' => 
     array (
       0 => 'C:\\xampp\\htdocs\\project_amnote\\views\\v_index.tpl',
-      1 => 1534508189,
+      1 => 1534581888,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b76bcaee7c0f4_45552191 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b77dde184b425_69068397 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <section class="section-home image-bg">
     <div class="container">
@@ -33,23 +33,29 @@ function content_5b76bcaee7c0f4_45552191 (Smarty_Internal_Template $_smarty_tpl)
             <!-- Modal -->
             <div class="home-slider">
                 <div class="slider-wrapper">
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div id="sliders1" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="public/images/slider/1.png" alt="First slide">
-                            </div>
+                            <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['sliders']->value, 'slider');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['slider']->value) {
+?>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="public/images/slider/2.png" alt="Second slide">
+                                <img class="d-block w-100" src="<?php echo $_smarty_tpl->tpl_vars['slider']->value->file;?>
+">
                             </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="public/images/slider/3.png" alt="Third slide">
-                            </div>
+                            <?php
+}
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
+?>
+
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#sliders1" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#sliders1" role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -221,15 +227,20 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
                 <div class="screenshot-wrapper">
                     <div id="screenshot" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="public/images/slider/1.png" alt="First slide">
-                            </div>
+                            <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['sliders']->value, 'slider');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['slider']->value) {
+?>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="public/images/slider/2.png" alt="First slide">
+                                <img class="d-block w-100" src="<?php echo $_smarty_tpl->tpl_vars['slider']->value->file;?>
+">
                             </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="public/images/slider/3.png" alt="First slide">
-                            </div>
+                            <?php
+}
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
+?>
 
                         </div>
                         <a class="carousel-control-prev" href="#screenshot" role="button" data-slide="prev">
@@ -334,6 +345,8 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 <?php echo '<script'; ?>
 >
     $(document).ready(function(){
+        $( "#sliders1 .carousel-item" ).first().addClass( "active" );
+        $( "#screenshot .carousel-item" ).first().addClass( "active" );
         $("#send_contact").on("submit", function(e){
             e.preventDefault();
             $.ajax({

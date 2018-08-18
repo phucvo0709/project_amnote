@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-08-18 06:11:11
+/* Smarty version 3.1.30, created on 2018-08-18 12:13:18
   from "C:\xampp\htdocs\project_amnote\admin\views\v_news.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5b779c5f2233d7_99810864',
+  'unifunc' => 'content_5b77f13e60ac63_24328527',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ceb9b5441306887fbbfdeedf88f60bc47711a453' => 
     array (
       0 => 'C:\\xampp\\htdocs\\project_amnote\\admin\\views\\v_news.tpl',
-      1 => 1534565466,
+      1 => 1534587159,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b779c5f2233d7_99810864 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b77f13e60ac63_24328527 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="row">
     <div class="col-12">
@@ -102,8 +102,10 @@ foreach ($_from as $_smarty_tpl->tpl_vars['new']->value) {
 ">
                             <td><?php echo $_smarty_tpl->tpl_vars['new']->value->id;?>
 </td>
-                            <td><span class="overflow-text"><?php echo $_smarty_tpl->tpl_vars['new']->value->title;?>
-</span></td>
+                            <td><a href="../news/<?php echo thu_vien::Bo_dau($_smarty_tpl->tpl_vars['new']->value->title);?>
+-<?php echo $_smarty_tpl->tpl_vars['new']->value->id;?>
+.htm" target="_blank"><span class="overflow-text"><?php echo $_smarty_tpl->tpl_vars['new']->value->title;?>
+</span></a></td>
                             <td><?php echo $_smarty_tpl->tpl_vars['new']->value->time_upload;?>
 </td>
                             <td>
@@ -207,22 +209,10 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 <?php echo '<script'; ?>
 >
     $(document).ready(function(){
-        var editorRulesObject = {
-            elements: {
-                img: function( el ) {
-                    if(el.attributes.style) {
-                        el.attributes.style = 'width: 100%';
-                    }
-                }
-            }
-        };
-
-        CKEDITOR.on('instanceReady', function( e ) {
-            // Ensures that any non-styled text, or text input without any tags will be correctly styled.
-            CKEDITOR.instances[e.editor.name].dataProcessor.dataFilter.addRules( editorRulesObject );
-            CKEDITOR.instances[e.editor.name].dataProcessor.htmlFilter.addRules( editorRulesObject );
+        $("#table-news").DataTable({
+            "order": []
         });
-        $("#table-news").DataTable();
+
         $("#uploadForm").on("submit", function(e){
             e.preventDefault();
             let dataForm = new FormData(this);

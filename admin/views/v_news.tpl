@@ -71,7 +71,7 @@
                     {foreach $news as $new}
                         <tr id="delete_new{$new->id}">
                             <td>{$new->id}</td>
-                            <td><span class="overflow-text">{$new->title}</span></td>
+                            <td><a href="../news/{thu_vien::Bo_dau($new->title)}-{$new->id}.htm" target="_blank"><span class="overflow-text">{$new->title}</span></a></td>
                             <td>{$new->time_upload}</td>
                             <td>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#updateNew{$new->id}" onClick="getId({$new->id})">Update</button>
@@ -147,22 +147,10 @@
 <script src="public/js/script_hien_thi_anh.js"></script>
 <script>
     $(document).ready(function(){
-        var editorRulesObject = {
-            elements: {
-                img: function( el ) {
-                    if(el.attributes.style) {
-                        el.attributes.style = 'width: 100%';
-                    }
-                }
-            }
-        };
-
-        CKEDITOR.on('instanceReady', function( e ) {
-            // Ensures that any non-styled text, or text input without any tags will be correctly styled.
-            CKEDITOR.instances[e.editor.name].dataProcessor.dataFilter.addRules( editorRulesObject );
-            CKEDITOR.instances[e.editor.name].dataProcessor.htmlFilter.addRules( editorRulesObject );
+        $("#table-news").DataTable({
+            "order": []
         });
-        $("#table-news").DataTable();
+
         $("#uploadForm").on("submit", function(e){
             e.preventDefault();
             let dataForm = new FormData(this);

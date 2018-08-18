@@ -15,11 +15,13 @@
     <link href="public/css/vendor/responsive.bootstrap4.css" rel="stylesheet" type="text/css" />
     <link href="public/css/vendor/buttons.bootstrap4.css" rel="stylesheet" type="text/css" />
     <!-- third party css end -->
-
     <!-- App css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/dropzone.css">
     <link href="public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="public/css/icons.min.css" rel="stylesheet" type="text/css" />
     <link href="public/css/app.min.css" rel="stylesheet" type="text/css" />
+    <!-- js -->
+    <script src="public/js/dropzone.js"></script>
     <script src="public/ckeditor/ckeditor.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-08-16 03:19:16
+/* Smarty version 3.1.30, created on 2018-08-18 10:51:10
   from "C:\xampp\htdocs\project_amnote\admin\views\v_login.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5b74d114a939b1_02599675',
+  'unifunc' => 'content_5b77ddfedc0df8_15507143',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '01235be682b146ae817ce6efa446cdf88cf91efb' => 
     array (
       0 => 'C:\\xampp\\htdocs\\project_amnote\\admin\\views\\v_login.tpl',
-      1 => 1534382342,
+      1 => 1534582246,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b74d114a939b1_02599675 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b77ddfedc0df8_15507143 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="account-pages mt-5 mb-5">
     <div class="container">
@@ -31,8 +31,8 @@ function content_5b74d114a939b1_02599675 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="card-body p-4">
 
                         <div class="text-center m-auto">
-                            <a href="index">
-                                <span><img src="public/assets/images/logo.png" alt="" height="22"></span>
+                            <a href="../.">
+                                <span><img src="./../public/images/logo.png" alt="" height="22"></span>
                             </a>
                             <div class="mt-2 mb-2">
                                 <?php if (isset($_smarty_tpl->tpl_vars['errors']->value)) {?>

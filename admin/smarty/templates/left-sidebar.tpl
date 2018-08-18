@@ -4,12 +4,12 @@
     <div class="slimscroll-menu">
 
         <!-- LOGO -->
-        <a href="index.html" class="logo text-center mb-4">
+        <a href="./../" class="logo text-center mb-4" target="_blank">
                         <span class="logo-lg">
-                            <img src="public/assets/images/logo.png" alt="" height="20">
+                            <img src="./../public/images/logo.png" alt="" height="20">
                         </span>
             <span class="logo-sm">
-                            <img src="public/assets/images/logo-sm.png" alt="" height="24">
+                            <img src="./../public/images/logo.png" alt="" height="24">
                         </span>
         </a>
 
@@ -33,15 +33,9 @@
                     </a>
                 </li>
                 <li>
-                    <a href="accounting-firm">
-                        <i class="fe-git-merge"></i>
-                        <span> Accounting Firm </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="other-services">
-                        <i class="fe-menu"></i>
-                        <span> Other Service </span>
+                    <a href="notices">
+                        <i class="fe-hash"></i>
+                        <span> Notices </span>
                     </a>
                 </li>
                 <li>
@@ -51,9 +45,27 @@
                     </a>
                 </li>
                 <li>
+                    <a href="sliders">
+                        <i class="fe-image"></i>
+                        <span> Sliders </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="accounting-firm">
+                        <i class="fe-git-merge"></i>
+                        <span> Accounting Firm </span>
+                    </a>
+                </li>
+                <li>
                     <a href="efficiencies">
                         <i class="fe-copy"></i>
                         <span> Efficiencies </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="other-services">
+                        <i class="fe-menu"></i>
+                        <span> Other Service </span>
                     </a>
                 </li>
                 <li>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-08-16 08:26:22
+/* Smarty version 3.1.30, created on 2018-08-18 10:31:32
   from "C:\xampp\htdocs\project_amnote\admin\smarty\templates\footer.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5b75190e586980_89881799',
+  'unifunc' => 'content_5b77d9645a8112_08795854',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '268668473536502a19a3714f04fd4da4f1afc4e9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\project_amnote\\admin\\smarty\\templates\\footer.tpl',
-      1 => 1534400781,
+      1 => 1534580941,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b75190e586980_89881799 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b77d9645a8112_08795854 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!-- Footer Start -->
 <footer class="footer">
@@ -72,13 +72,9 @@ function content_5b75190e586980_89881799 (Smarty_Internal_Template $_smarty_tpl)
 <?php echo '<script'; ?>
  src="public/js/vendor/dataTables.select.min.js"><?php echo '</script'; ?>
 >
-<!-- third party js ends -->
-
-<!-- demo app -->
 <?php echo '<script'; ?>
  src="public/js/pages/datatables.init.js"><?php echo '</script'; ?>
 >
-<!-- end demo js-->
 
 </body>
 </html><?php }

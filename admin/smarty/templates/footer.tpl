@@ -29,15 +29,6 @@
 <script src="public/js/vendor/dataTables.keyTable.min.js"></script>
 <script src="public/js/vendor/dataTables.select.min.js"></script>
 <script src="public/js/pages/datatables.init.js"></script>
-<script>
-    $(document).ready(function(){
-        CKEDITOR.plugins.add( 'image', {
-            onLoad: function( editor ) {
-                CKEDITOR.addCss(
-                    '.imagePointer {max-width:100%;}')
-            }
-        }
-    })
-</script>
+
 </body>
 </html>

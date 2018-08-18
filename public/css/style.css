@@ -15,7 +15,12 @@ ul {
 a{
     color: #a0a0a0 !important;
 }
-img {max-width:100%}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .btn {
     color: white !important;
 }
@@ -466,7 +471,13 @@ footer span{
     padding-bottom: 20px;
 }
 /*page notice*/
-
+#table-notices a{
+    color: black !important;
+}
+#table-notices a:hover{
+    color: #fa7338 !important;
+    text-decoration: none;
+}
 /*page news*/
 h4.title-post {
     font-size: 16px;

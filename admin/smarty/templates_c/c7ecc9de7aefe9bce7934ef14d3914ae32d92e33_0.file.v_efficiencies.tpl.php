@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-08-17 09:51:47
+/* Smarty version 3.1.30, created on 2018-08-18 08:47:56
   from "C:\xampp\htdocs\project_amnote\admin\views\v_efficiencies.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5b767e93174568_35654617',
+  'unifunc' => 'content_5b77c11cd45432_64237974',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c7ecc9de7aefe9bce7934ef14d3914ae32d92e33' => 
     array (
       0 => 'C:\\xampp\\htdocs\\project_amnote\\admin\\views\\v_efficiencies.tpl',
-      1 => 1534492305,
+      1 => 1534574690,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b767e93174568_35654617 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b77c11cd45432_64237974 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="row">
     <div class="col-12">
@@ -149,7 +149,6 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 <?php echo '<script'; ?>
 >
     $(document).ready(function(){
-        // $("#table-efficiencies").DataTable();
         $("#add_efficienci_form").on("submit", function(e){
             e.preventDefault();
             $.ajax({
@@ -182,7 +181,6 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
             method: "POST",
             data: delete_id,
             success: function(data){
-                console.log(data)
                 $("#delete_efficienci" + id).hide('slow');
             }
         })

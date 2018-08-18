@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-08-17 12:38:47
+/* Smarty version 3.1.30, created on 2018-08-18 12:11:06
   from "C:\xampp\htdocs\project_amnote\admin\smarty\templates\head.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5b76a5b73ab727_40576172',
+  'unifunc' => 'content_5b77f0ba4ec0a8_35034043',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e66ac004d768d7c0de273142cd855a5f9ecb2416' => 
     array (
       0 => 'C:\\xampp\\htdocs\\project_amnote\\admin\\smarty\\templates\\head.tpl',
-      1 => 1534502221,
+      1 => 1534587062,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b76a5b73ab727_40576172 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b77f0ba4ec0a8_35034043 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -39,13 +39,16 @@ function content_5b76a5b73ab727_40576172 (Smarty_Internal_Template $_smarty_tpl)
     <link href="public/css/vendor/dataTables.bootstrap4.css" rel="stylesheet" type="text/css" />
     <link href="public/css/vendor/responsive.bootstrap4.css" rel="stylesheet" type="text/css" />
     <link href="public/css/vendor/buttons.bootstrap4.css" rel="stylesheet" type="text/css" />
-    <link href="public/css/vendor/select.bootstrap4.css" rel="stylesheet" type="text/css" />
     <!-- third party css end -->
-
     <!-- App css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/dropzone.css">
     <link href="public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="public/css/icons.min.css" rel="stylesheet" type="text/css" />
     <link href="public/css/app.min.css" rel="stylesheet" type="text/css" />
+    <!-- js -->
+    <?php echo '<script'; ?>
+ src="public/js/dropzone.js"><?php echo '</script'; ?>
+>
     <?php echo '<script'; ?>
  src="public/ckeditor/ckeditor.js"><?php echo '</script'; ?>
 >
