@@ -27,6 +27,12 @@
                     </a>
                 </li>
                 <li>
+                    <a href="news">
+                        <i class="fe-file-text"></i>
+                        <span> News </span>
+                    </a>
+                </li>
+                <li>
                     <a href="accounting-firm">
                         <i class="fe-git-merge"></i>
                         <span> Accounting Firm </span>

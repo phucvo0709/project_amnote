@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-08-15 16:19:18
+/* Smarty version 3.1.30, created on 2018-08-18 05:22:04
   from "C:\xampp\htdocs\project_amnote\smarty\templates\header.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5b74366634f5e8_04620167',
+  'unifunc' => 'content_5b7790dce6a556_15216629',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '62cbfba9a6f132d31fb208bd5f05f31e6f9b0ae1' => 
     array (
       0 => 'C:\\xampp\\htdocs\\project_amnote\\smarty\\templates\\header.tpl',
-      1 => 1534342757,
+      1 => 1534562521,
       2 => 'file',
     ),
   ),
@@ -20,22 +20,22 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b74366634f5e8_04620167 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b7790dce6a556_15216629 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <header>
     <div class="parent-nav">
         <div class="container">
             <nav class="navbar navbar-expand-lg child-nav navbar-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand" href=".">
                     <img src="public/images/logo.png" alt="AMNOTE" style="max-height: 48px; max-width: 125px">
                 </a>
 
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <div class="collapse navbar-collapse" id="navbar">
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                        <li class="nav-item active-nav">
+                        <li class="nav-item">
                             <a class="nav-link" href=".">HOME</a>
                         </li>
                         <li class="nav-item dropdown show">
@@ -51,17 +51,6 @@ function content_5b74366634f5e8_04620167 (Smarty_Internal_Template $_smarty_tpl)
                                 <a class="dropdown-item" href="how-to-buy-program">HOW TO BUY PROGRAM</a>
                             </div>
                         </li>
-                        
-                            
-                                
-                            
-
-                            
-                                
-                                
-                                
-                            
-                        
                         <li class="nav-item">
                             <a class="nav-link" href="order-service">OTHER SERVICE</a>
                         </li>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-08-15 07:11:40
+/* Smarty version 3.1.30, created on 2018-08-18 06:38:17
   from "C:\xampp\htdocs\project_amnote\smarty\templates\footer.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5b73b60c389284_22740622',
+  'unifunc' => 'content_5b77a2b9358d74_41244171',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '691345c4976764d7ee750e9afa810ddd59b8a89f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\project_amnote\\smarty\\templates\\footer.tpl',
-      1 => 1534309896,
+      1 => 1534567091,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:modal-trial.tpl' => 1,
   ),
 ),false)) {
-function content_5b73b60c389284_22740622 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b77a2b9358d74_41244171 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <footer>
     <div class="top-footer text-left">
@@ -81,17 +81,36 @@ echo '<script'; ?>
  src="public/js/bootstrap.min.js"><?php echo '</script'; ?>
 >
 <?php echo '<script'; ?>
+ src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
  src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"><?php echo '</script'; ?>
 >
 <?php echo '<script'; ?>
 >
-    new WOW().init();
-    $('#goTry').on('click', function(e){
-        e.preventDefault();
-        $('html, body').stop().animate({
-            scrollTop: $('#try').offset().top
-        }, 1000);
+    $( document ).ready(function() {
+        new WOW().init();
+        var loc = window.location.href;
+        $('#navbar ul li a').each(function () {
+            var status = loc.indexOf($(this).attr('href'));
+            $(this).closest('li').removeClass('active-nav');
+
+            if ( -1 != status ) {
+                $(this).closest('li').addClass('active-nav');
+            }
+
+        });
+        $('#goTry').on('click', function(e){
+            e.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: $('#try').offset().top
+            }, 1000);
+        });
     });
+
 <?php echo '</script'; ?>
 >
 </body>

@@ -2,16 +2,16 @@
     <div class="parent-nav">
         <div class="container">
             <nav class="navbar navbar-expand-lg child-nav navbar-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand" href=".">
                     <img src="public/images/logo.png" alt="AMNOTE" style="max-height: 48px; max-width: 125px">
                 </a>
 
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <div class="collapse navbar-collapse" id="navbar">
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                        <li class="nav-item active-nav">
+                        <li class="nav-item">
                             <a class="nav-link" href=".">HOME</a>
                         </li>
                         <li class="nav-item dropdown show">
@@ -27,17 +27,6 @@
                                 <a class="dropdown-item" href="how-to-buy-program">HOW TO BUY PROGRAM</a>
                             </div>
                         </li>
-                        {*<li class="nav-item dropdown show">*}
-                            {*<a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">*}
-                                {*INVOICE*}
-                            {*</a>*}
-
-                            {*<div class="dropdown-menu" aria-labelledby="dropdownMenuLink2">*}
-                                {*<a class="dropdown-item" href="#">E-INVOICE SOFTWARE</a>*}
-                                {*<a class="dropdown-item" href="#">SEARCH E-INVOICE</a>*}
-                                {*<a class="dropdown-item" href="#">INVOICE SOFTWARE</a>*}
-                            {*</div>*}
-                        {*</li>*}
                         <li class="nav-item">
                             <a class="nav-link" href="order-service">OTHER SERVICE</a>
                         </li>

@@ -78,7 +78,6 @@ CKEDITOR.stylesSet.add( 'default', [
 	{ name: 'Language: LTR',	element: 'span', attributes: { 'dir': 'ltr' } },
 
 	/* Object Styles */
-
 	{
 		name: 'Styled image (left)',
 		element: 'img',

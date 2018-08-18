@@ -14,7 +14,6 @@
     <link href="public/css/vendor/dataTables.bootstrap4.css" rel="stylesheet" type="text/css" />
     <link href="public/css/vendor/responsive.bootstrap4.css" rel="stylesheet" type="text/css" />
     <link href="public/css/vendor/buttons.bootstrap4.css" rel="stylesheet" type="text/css" />
-    <link href="public/css/vendor/select.bootstrap4.css" rel="stylesheet" type="text/css" />
     <!-- third party css end -->
 
     <!-- App css -->

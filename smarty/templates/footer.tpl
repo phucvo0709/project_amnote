@@ -51,15 +51,30 @@
     {/if}
 {/if}
 <script src="public/js/bootstrap.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script>
-    new WOW().init();
-    $('#goTry').on('click', function(e){
-        e.preventDefault();
-        $('html, body').stop().animate({
-            scrollTop: $('#try').offset().top
-        }, 1000);
+    $( document ).ready(function() {
+        new WOW().init();
+        var loc = window.location.href;
+        $('#navbar ul li a').each(function () {
+            var status = loc.indexOf($(this).attr('href'));
+            $(this).closest('li').removeClass('active-nav');
+
+            if ( -1 != status ) {
+                $(this).closest('li').addClass('active-nav');
+            }
+
+        });
+        $('#goTry').on('click', function(e){
+            e.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: $('#try').offset().top
+            }, 1000);
+        });
     });
+
 </script>
 </body>
 </html>

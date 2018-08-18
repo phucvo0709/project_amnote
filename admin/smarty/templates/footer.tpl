@@ -28,11 +28,16 @@
 <script src="public/js/vendor/buttons.bootstrap4.min.js"></script>
 <script src="public/js/vendor/dataTables.keyTable.min.js"></script>
 <script src="public/js/vendor/dataTables.select.min.js"></script>
-<!-- third party js ends -->
-
-<!-- demo app -->
 <script src="public/js/pages/datatables.init.js"></script>
-<!-- end demo js-->
-
+<script>
+    $(document).ready(function(){
+        CKEDITOR.plugins.add( 'image', {
+            onLoad: function( editor ) {
+                CKEDITOR.addCss(
+                    '.imagePointer {max-width:100%;}')
+            }
+        }
+    })
+</script>
 </body>
 </html>

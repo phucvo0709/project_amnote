@@ -15,6 +15,7 @@ ul {
 a{
     color: #a0a0a0 !important;
 }
+img {max-width:100%}
 .btn {
     color: white !important;
 }
@@ -464,11 +465,17 @@ footer span{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+/*page notice*/
+
 /*page news*/
 h4.title-post {
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 5px;
+}
+.href-title:hover{
+    color: #fa7338 !important;
+    text-decoration: none;
 }
 article {
     margin-bottom: 20px;
@@ -692,4 +699,25 @@ article h4 a {
 }
 .section-main-functions ul>li ul li:before {
     content: "\f105";
+}
+/*page new*/
+.meta-wrapper {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #eaeaea;
+    margin-bottom: 20px;
+}
+ul.meta-post {
+    border-bottom: 1px solid #eaeaea;
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 8px 0;
+}
+ul.meta-post li {
+    float: left;
+    list-style: none;
+    padding-left: 0;
+    padding-right: 15px;
+    color: #898989;
 }

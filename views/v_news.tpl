@@ -12,12 +12,11 @@
                                     <img src="{$new->image}" class="img-fluid img-thumbnail" alt="{$new->title}">
                                 </div>
                                 <div class="col-lg-9">
-                                    <h4 class="title-post "> <a href="#">{$new->title}</a></h4>
+                                    <h4 class="title-post"><a class="href-title" href="new.php?id={$new->id}">{$new->title}</a></h4>
 
-                                    <div class="meta-post">
-                                        <span>Date: {$new->time_upload}</span>
-                                        <span>View: {$new->view}</span>
-
+                                    <div class="meta-post mb-2">
+                                        <span><b>Date:</b> {$new->time_upload|date_format:"%D"}</span>
+                                        <span><b>View:</b> {$new->view}</span>
                                     </div>
                                     <div class="post-desc">{$new->description}</div>
                                 </div>

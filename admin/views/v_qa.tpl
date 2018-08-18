@@ -121,6 +121,9 @@
     function updateQa(id){
         $("#update_qa_form" + id).on("submit", function(e){
             e.preventDefault();
+            for(instance in CKEDITOR.instances){
+                CKEDITOR.instances['content'].updateElement();
+            }
             $.ajax({
                 url: "models/ajax/update_qa",
                 method: "POST",
