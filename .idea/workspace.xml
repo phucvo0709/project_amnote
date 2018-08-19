@@ -2,49 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d5b46c7-0181-4a64-94b9-7c9a26f78ec0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/controllers/c_favicon_company.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/controllers/c_info_company.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/controllers/c_logo_company.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/favicon-company.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/info-company.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/logo-company.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/models/ajax/update_favicon.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/models/ajax/update_info.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/models/ajax/update_logo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/models/m_favicon_company.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/models/m_info_company.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/models/m_logo_company.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/views/v_favicon_company.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/views/v_info_company.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/views/v_logo_company.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/c_info_company.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/m_info_company.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/smarty/templates/head.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates/head.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/smarty/templates/left-sidebar.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates/left-sidebar.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/smarty/templates_c/6373d57806be464541b525a680932470cab396c0_0.file.left-sidebar.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates_c/6373d57806be464541b525a680932470cab396c0_0.file.left-sidebar.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/smarty/templates_c/e66ac004d768d7c0de273142cd855a5f9ecb2416_0.file.head.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/smarty/templates_c/e66ac004d768d7c0de273142cd855a5f9ecb2416_0.file.head.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/c_accounting_firm.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/c_accounting_firm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/c_chart.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/c_chart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/c_effects.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/c_effects.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/c_how_to_buy_program.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/c_how_to_buy_program.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/c_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/c_index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/c_main_functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/c_main_functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/c_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/c_new.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/c_news.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/c_news.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/c_notice.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/c_notice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/c_other_service.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/c_other_service.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/c_qa.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/c_qa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/fav_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smarty/templates/footer.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/smarty/templates/footer.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smarty/templates/head.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/smarty/templates/head.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smarty/templates/header.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/smarty/templates/header.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smarty/templates_c/03f4952d7695a0d7640a4fd053d31841314eb78e_0.file.v_how_to_buy_program.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/smarty/templates_c/03f4952d7695a0d7640a4fd053d31841314eb78e_0.file.v_how_to_buy_program.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smarty/templates_c/62cbfba9a6f132d31fb208bd5f05f31e6f9b0ae1_0.file.header.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/smarty/templates_c/62cbfba9a6f132d31fb208bd5f05f31e6f9b0ae1_0.file.header.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smarty/templates_c/67ef6a8c6853f493aef4e98fff35bf73d2773705_0.file.head.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/smarty/templates_c/67ef6a8c6853f493aef4e98fff35bf73d2773705_0.file.head.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smarty/templates_c/691345c4976764d7ee750e9afa810ddd59b8a89f_0.file.footer.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/smarty/templates_c/691345c4976764d7ee750e9afa810ddd59b8a89f_0.file.footer.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/v_how_to_buy_program.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_how_to_buy_program.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/v_index.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_index.tpl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,12 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="head.tpl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/smarty/templates/head.tpl">
+    <leaf>
+      <file leaf-file-name="v_index.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/v_index.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="32">
+              <caret line="172" column="10" selection-start-line="172" selection-start-column="10" selection-end-line="172" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -126,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/models/m_news.php" />
         <option value="$PROJECT_DIR$/views/v_news.tpl" />
         <option value="$PROJECT_DIR$/models/thu_vien.php" />
         <option value="$PROJECT_DIR$/admin/models/m_news.php" />
@@ -177,6 +135,7 @@
         <option value="$PROJECT_DIR$/smarty/templates/head.tpl" />
         <option value="$PROJECT_DIR$/controllers/c_info_company.php" />
         <option value="$PROJECT_DIR$/admin/smarty/templates/head.tpl" />
+        <option value="$PROJECT_DIR$/views/v_index.tpl" />
       </list>
     </option>
   </component>
@@ -189,7 +148,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="50" />
     <option name="y" value="10" />
     <option name="width" value="1705" />
@@ -203,7 +162,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,25 +172,13 @@
             <path>
               <item name="project_amnote" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_amnote" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_amnote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_amnote" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="smarty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_amnote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_amnote" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="smarty" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,12 +242,14 @@
       <workItem from="1534590464627" duration="212000" />
       <workItem from="1534590695595" duration="14000" />
       <workItem from="1534591043074" duration="3527000" />
-      <workItem from="1534636720899" duration="1690000" />
+      <workItem from="1534636720899" duration="1822000" />
+      <workItem from="1534641050759" duration="41000" />
+      <workItem from="1534641103095" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124798000" />
+    <option name="totallyTimeSpent" value="124987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -316,7 +264,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32965517" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32965517" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -466,13 +414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-192">
           <caret line="13" column="66" lean-forward="true" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/v_index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4128">
-          <caret line="172" column="10" lean-forward="true" selection-start-line="172" selection-start-column="10" selection-end-line="172" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -679,6 +620,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/v_index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="172" column="10" selection-start-line="172" selection-start-column="10" selection-end-line="172" selection-end-column="10" />
         </state>
       </provider>
     </entry>

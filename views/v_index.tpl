@@ -172,38 +172,6 @@
     </div>
 </section>
 <div class="clearfix"></div>
-<section class="section-screenshot d-none d-lg-block wow fadeIn animated">
-    <div class="container">
-        <div class="feature-header">
-            <h3 class="feature-heading text-center"><span>Screentshot</span></h3>
-        </div>
-        <div class="text-center">
-            <div class="screenshot-slider">
-                <div class="screenshot-wrapper">
-                    <div id="screenshot" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            {foreach $sliders as $slider}
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="{$slider->file}">
-                            </div>
-                            {/foreach}
-                        </div>
-                        <a class="carousel-control-prev" href="#screenshot" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#screenshot" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
-                <img src="public/images/browser.png" class="img-fluid" alt="Slider_Holder_Img">
-            </div>
-        </div>
-    </div>
-</section>
-<div class="clearfix"></div>
 <section class="section-pricing wow fadeIn animated">
     <div class="container">
         <div class="feature-header">
