@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-08-15 15:38:31
+/* Smarty version 3.1.30, created on 2018-08-19 02:17:03
   from "C:\xampp\htdocs\project_amnote\views\v_how_to_buy_program.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5b742cd7c61fd4_02143515',
+  'unifunc' => 'content_5b78b6ffd4e127_12986945',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '03f4952d7695a0d7640a4fd053d31841314eb78e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\project_amnote\\views\\v_how_to_buy_program.tpl',
-      1 => 1534340228,
+      1 => 1534637823,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b742cd7c61fd4_02143515 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b78b6ffd4e127_12986945 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <section class="section-how-to-buy">
     <div class="container">
@@ -114,11 +114,13 @@ function content_5b742cd7c61fd4_02143515 (Smarty_Internal_Template $_smarty_tpl)
                 <div class="row">
                     <div class="col-lg-8">
                         <h2 style="font-size: 30px;text-align: left">Contact for purchase inquiry</h2>
-                        <p>Address in Vietnam : 87 Nguyen Thi Thap, The New Urban Him Lam, Tan Hung Ward, District 7, HCM city<br>
-                            Contact &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: 84-28-6251.5774 – 84.12 9999 7070<br>
-                            Fax &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: 84-28-6251.5764<br>
-                            Korean contact &nbsp; &nbsp; &nbsp; &nbsp; : 012.8888.1000<br>
-                            Location instruction : go across Kenh Te bridge, go ahead Nguyen Huu Tho Street ( see Lotte Mart), turn right to Nguyen Thi Thap street and go ahead to meet the corner of Nguyen Thi Thap street and Street No.5. Our company is on the left at the corner of Nguyen Thi Thap street and Street No.5</p>
+                        <p>Address in Vietnam : <?php echo $_smarty_tpl->tpl_vars['address']->value;?>
+<br>
+                            Contact &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: <?php echo $_smarty_tpl->tpl_vars['phone1']->value;?>
+ –  <?php echo $_smarty_tpl->tpl_vars['phone2']->value;?>
+<br>
+                            Fax &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: <?php echo $_smarty_tpl->tpl_vars['fax']->value;?>
+<br>
                     </div>
                     <div class="col-lg-4 d-none d-lg-block">
                         <div class="text-center">

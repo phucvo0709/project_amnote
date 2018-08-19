@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-08-18 06:38:17
+/* Smarty version 3.1.30, created on 2018-08-19 02:14:04
   from "C:\xampp\htdocs\project_amnote\smarty\templates\footer.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5b77a2b9358d74_41244171',
+  'unifunc' => 'content_5b78b64cbdbb89_03930682',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '691345c4976764d7ee750e9afa810ddd59b8a89f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\project_amnote\\smarty\\templates\\footer.tpl',
-      1 => 1534567091,
+      1 => 1534637643,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:modal-trial.tpl' => 1,
   ),
 ),false)) {
-function content_5b77a2b9358d74_41244171 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b78b64cbdbb89_03930682 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <footer>
     <div class="top-footer text-left">
@@ -29,9 +29,12 @@ function content_5b77a2b9358d74_41244171 (Smarty_Internal_Template $_smarty_tpl)
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <div class="footer-logo">
-                        <img src="public/images/logo.png" class="img-fluid" alt="">
-                        <p class="mt-2">NC9 VietNam Company Limited</p>
-                        <p class="mt-2">Optimizing general management program for every company</p>
+                        <img src="<?php echo $_smarty_tpl->tpl_vars['logo']->value;?>
+" class="img-fluid" alt="">
+                        <p class="mt-2"><?php echo $_smarty_tpl->tpl_vars['title_website']->value;?>
+</p>
+                        <p class="mt-2"><?php echo $_smarty_tpl->tpl_vars['description_website']->value;?>
+</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -50,9 +53,13 @@ function content_5b77a2b9358d74_41244171 (Smarty_Internal_Template $_smarty_tpl)
                 <div class="col-md-4 col-sm-6">
                     <h4><small>Technology and all rights</small></h4>
                     <ul class="mt-4">
-                        <li class="mb-2"><span><i class="fa fa-phone"></i> 84-12.8888.1000 (Korean)</span></li>
-                        <li class="mb-2"><span><i class="fa fa-mobile"></i> 84.12 9999 7070 (Viet Nam)</span></li>
-                        <li class="mb-2"><span><i class="fa fa-envelope"></i>  <a href="amnote@amnote.com.vn">amnote@amnote.com.vn</a></span></li>
+                        <li class="mb-2"><span><i class="fa fa-phone"></i><?php echo $_smarty_tpl->tpl_vars['phone1']->value;?>
+</span></li>
+                        <li class="mb-2"><span><i class="fa fa-mobile"></i><?php echo $_smarty_tpl->tpl_vars['phone2']->value;?>
+</span></li>
+                        <li class="mb-2"><span><i class="fa fa-envelope"></i>  <a href="<?php echo $_smarty_tpl->tpl_vars['email']->value;?>
+"><?php echo $_smarty_tpl->tpl_vars['email']->value;?>
+</a></span></li>
                     </ul>
                 </div>
             </div>
@@ -63,9 +70,13 @@ function content_5b77a2b9358d74_41244171 (Smarty_Internal_Template $_smarty_tpl)
         <div class="row">
             <div class="col-md-12">
                 <p class="footer1"></p><p class="copy-right" style="text-align: center;"><span class="tencty">AMnote</span>
-                    Address: 87 Nguyen Thi Thap, The New Urban Him Lam, Tan Hung Ward, District 7, HCM city <br>
-                    Tel : 84-28-6251.5774 – 84.12 9999 7070 / Fax : 84-28-6251.5764 <br>
-                    Copyright&nbsp;© 2017 Amnote. All Rights Reserved.</p><p></p>
+                    Address: <?php echo $_smarty_tpl->tpl_vars['address']->value;?>
+<br>
+                    Tel : <?php echo $_smarty_tpl->tpl_vars['phone1']->value;?>
+ – <?php echo $_smarty_tpl->tpl_vars['phone2']->value;?>
+ / Fax : <?php echo $_smarty_tpl->tpl_vars['fax']->value;?>
+ <br>
+                    Copyright&nbsp;© 2018 Amnote. All Rights Reserved.</p><p></p>
             </div>
         </div>
     </div>

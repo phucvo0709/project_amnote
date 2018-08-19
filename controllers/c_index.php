@@ -10,11 +10,13 @@ class C_index
         $prices = $m_index->get_all_pricing();
         $locations = $m_index->get_all_location_pricing();
         $sliders = $m_index->get_all_slider();
+
         //Controller
         include("Smarty_amnote.php");
         $smarty = new Smarty_amnote();
         $title = "Home";
         $view = "views/v_index.tpl";
+        include("c_info_company.php");
         $smarty->assign("title",$title);
         $smarty->assign('sliders', $sliders);
         $smarty->assign('efficiencies', $efficiencies);

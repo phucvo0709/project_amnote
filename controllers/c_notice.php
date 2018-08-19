@@ -13,6 +13,7 @@ class C_notice
         $smarty = new Smarty_amnote();
         $title = "Notice";
         $view = "views/v_notice.tpl";
+        include("c_info_company.php");
         $smarty->assign("title",$title);
         $smarty->assign("notices",$notices);
         $smarty->assign("view",$view);

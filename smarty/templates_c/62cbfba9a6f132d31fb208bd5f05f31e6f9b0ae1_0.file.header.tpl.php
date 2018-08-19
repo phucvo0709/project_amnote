@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-08-18 05:22:04
+/* Smarty version 3.1.30, created on 2018-08-18 14:15:45
   from "C:\xampp\htdocs\project_amnote\smarty\templates\header.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5b7790dce6a556_15216629',
+  'unifunc' => 'content_5b780df1033b14_85640779',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '62cbfba9a6f132d31fb208bd5f05f31e6f9b0ae1' => 
     array (
       0 => 'C:\\xampp\\htdocs\\project_amnote\\smarty\\templates\\header.tpl',
-      1 => 1534562521,
+      1 => 1534594540,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b7790dce6a556_15216629 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b780df1033b14_85640779 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <header>
     <div class="parent-nav">
@@ -30,7 +30,8 @@ function content_5b7790dce6a556_15216629 (Smarty_Internal_Template $_smarty_tpl)
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand" href=".">
-                    <img src="public/images/logo.png" alt="AMNOTE" style="max-height: 48px; max-width: 125px">
+                    <img src="<?php echo $_smarty_tpl->tpl_vars['logo']->value;?>
+" style="max-height: 48px; max-width: 125px">
                 </a>
 
                 <div class="collapse navbar-collapse" id="navbar">

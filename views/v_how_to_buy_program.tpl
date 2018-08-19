@@ -90,11 +90,9 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <h2 style="font-size: 30px;text-align: left">Contact for purchase inquiry</h2>
-                        <p>Address in Vietnam : 87 Nguyen Thi Thap, The New Urban Him Lam, Tan Hung Ward, District 7, HCM city<br>
-                            Contact &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: 84-28-6251.5774 – 84.12 9999 7070<br>
-                            Fax &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: 84-28-6251.5764<br>
-                            Korean contact &nbsp; &nbsp; &nbsp; &nbsp; : 012.8888.1000<br>
-                            Location instruction : go across Kenh Te bridge, go ahead Nguyen Huu Tho Street ( see Lotte Mart), turn right to Nguyen Thi Thap street and go ahead to meet the corner of Nguyen Thi Thap street and Street No.5. Our company is on the left at the corner of Nguyen Thi Thap street and Street No.5</p>
+                        <p>Address in Vietnam : {$address}<br>
+                            Contact &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: {$phone1} –  {$phone2}<br>
+                            Fax &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: {$fax}<br>
                     </div>
                     <div class="col-lg-4 d-none d-lg-block">
                         <div class="text-center">

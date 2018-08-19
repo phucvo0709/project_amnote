@@ -4,9 +4,9 @@
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <div class="footer-logo">
-                        <img src="public/images/logo.png" class="img-fluid" alt="">
-                        <p class="mt-2">NC9 VietNam Company Limited</p>
-                        <p class="mt-2">Optimizing general management program for every company</p>
+                        <img src="{$logo}" class="img-fluid" alt="">
+                        <p class="mt-2">{$title_website}</p>
+                        <p class="mt-2">{$description_website}</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -25,9 +25,9 @@
                 <div class="col-md-4 col-sm-6">
                     <h4><small>Technology and all rights</small></h4>
                     <ul class="mt-4">
-                        <li class="mb-2"><span><i class="fa fa-phone"></i> 84-12.8888.1000 (Korean)</span></li>
-                        <li class="mb-2"><span><i class="fa fa-mobile"></i> 84.12 9999 7070 (Viet Nam)</span></li>
-                        <li class="mb-2"><span><i class="fa fa-envelope"></i>  <a href="amnote@amnote.com.vn">amnote@amnote.com.vn</a></span></li>
+                        <li class="mb-2"><span><i class="fa fa-phone"></i>{$phone1}</span></li>
+                        <li class="mb-2"><span><i class="fa fa-mobile"></i>{$phone2}</span></li>
+                        <li class="mb-2"><span><i class="fa fa-envelope"></i>  <a href="{$email}">{$email}</a></span></li>
                     </ul>
                 </div>
             </div>
@@ -38,9 +38,9 @@
         <div class="row">
             <div class="col-md-12">
                 <p class="footer1"></p><p class="copy-right" style="text-align: center;"><span class="tencty">AMnote</span>
-                    Address: 87 Nguyen Thi Thap, The New Urban Him Lam, Tan Hung Ward, District 7, HCM city <br>
-                    Tel : 84-28-6251.5774 – 84.12 9999 7070 / Fax : 84-28-6251.5764 <br>
-                    Copyright&nbsp;© 2017 Amnote. All Rights Reserved.</p><p></p>
+                    Address: {$address}<br>
+                    Tel : {$phone1} – {$phone2} / Fax : {$fax} <br>
+                    Copyright&nbsp;© 2018 Amnote. All Rights Reserved.</p><p></p>
             </div>
         </div>
     </div>

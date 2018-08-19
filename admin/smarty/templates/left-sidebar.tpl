@@ -74,7 +74,24 @@
                         <span> Q&A </span>
                     </a>
                 </li>
-
+                <li>
+                    <a href="javascript: void(0);">
+                        <i class="fe-info"></i>
+                        <span> Info Company </span>
+                        <span class="menu-arrow"></span>
+                    </a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li>
+                            <a href="info-company">Manager Info</a>
+                        </li>
+                        <li>
+                            <a href="logo-company">Manager Logo</a>
+                        </li>
+                        <li>
+                            <a href="favicon-company">Manager Favicon</a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
 
         </div>

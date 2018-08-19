@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{$title}</title>
+    <link rel="shortcut icon" href="{$favicon}" type="image/x-icon"/>
     <!--icon-->
     <link rel="stylesheet" href="public/assets/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
     <link rel="stylesheet" href="public/assets/pe-icon-7-stroke/css/helper.css">
@@ -17,6 +19,5 @@
     <link rel="stylesheet" href="public/css/queries.css">
     <!--js-->
     <script src="public/js/jquery-3.3.1.min.js"></script>
-    <title>{$title}</title>
 </head>
 <body>

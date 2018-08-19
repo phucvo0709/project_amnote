@@ -13,6 +13,7 @@ class C_news
         $smarty = new Smarty_amnote();
         $title = "News";
         $view = "views/v_news.tpl";
+        include("c_info_company.php");
         $smarty->assign("title",$title);
         $smarty->assign("news",$news);
         $smarty->assign("view",$view);

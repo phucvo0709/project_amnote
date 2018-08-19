@@ -687,7 +687,11 @@ article h4 a {
 .section-how-to-buy, .section-where-to-buy, .section-how-much, .section-how-to-learn, .section-contact-to-purchase{
     padding: 50px;
 }
-.fa-question, .fa-map-marker, .section-how-much .fa-money, .fa-book, .fa-phone{
+.fa-question, .fa-map-marker, .section-how-much .fa-money, .fa-book{
+    font-size: 5em;
+    color: #940b3c !important;
+}
+.section-contact-to-purchase .fa-phone{
     font-size: 5em;
     color: #940b3c !important;
 }

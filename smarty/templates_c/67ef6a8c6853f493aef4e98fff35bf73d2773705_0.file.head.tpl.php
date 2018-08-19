@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-08-18 11:26:54
+/* Smarty version 3.1.30, created on 2018-08-19 02:25:01
   from "C:\xampp\htdocs\project_amnote\smarty\templates\head.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5b77e65ed49a70_54042291',
+  'unifunc' => 'content_5b78b8dd8f6943_56057187',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '67ef6a8c6853f493aef4e98fff35bf73d2773705' => 
     array (
       0 => 'C:\\xampp\\htdocs\\project_amnote\\smarty\\templates\\head.tpl',
-      1 => 1534584413,
+      1 => 1534638296,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b77e65ed49a70_54042291 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b78b8dd8f6943_56057187 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,6 +29,10 @@ function content_5b77e65ed49a70_54042291 (Smarty_Internal_Template $_smarty_tpl)
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+    <link rel="shortcut icon" href="<?php echo $_smarty_tpl->tpl_vars['favicon']->value;?>
+" type="image/x-icon"/>
     <!--icon-->
     <link rel="stylesheet" href="public/assets/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
     <link rel="stylesheet" href="public/assets/pe-icon-7-stroke/css/helper.css">
@@ -43,8 +47,6 @@ function content_5b77e65ed49a70_54042291 (Smarty_Internal_Template $_smarty_tpl)
     <?php echo '<script'; ?>
  src="public/js/jquery-3.3.1.min.js"><?php echo '</script'; ?>
 >
-    <title><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
-</title>
 </head>
 <body><?php }
 }

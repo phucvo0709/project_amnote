@@ -17,6 +17,7 @@ class C_effects
         $smarty = new Smarty_amnote();
         $title = "Expected effects";
         $view = "views/v_effects.tpl";
+        include("c_info_company.php");
         $smarty->assign("title",$title);
         $smarty->assign("view",$view);
         $smarty->display("layout.tpl");

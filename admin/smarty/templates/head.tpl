@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>{$title}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>{$title}</title>
+    <link rel="shortcut icon" href="http://amnote.com/wp-content/uploads/2017/03/am_icon.png" type="image/x-icon"/>
     <!-- App favicon -->
-    <link rel="shortcut icon" href="public/assets/images/favicon.ico">
     <link rel="stylesheet" href="../public/assets/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
     <link rel="stylesheet" href="../public/assets/pe-icon-7-stroke/css/helper.css">
     <!-- third party css -->
@@ -24,6 +23,4 @@
     <script src="public/js/dropzone.js"></script>
     <script src="public/ckeditor/ckeditor.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-
 </head>

@@ -12,6 +12,7 @@ class C_other_service
         $smarty = new Smarty_amnote();
         $title = "Order Service";
         $view = "views/v_other_service.tpl";
+        include("c_info_company.php");
         $smarty->assign("title",$title);
         $smarty->assign('other_services', $other_services);
         $smarty->assign("view",$view);

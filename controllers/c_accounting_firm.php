@@ -19,6 +19,7 @@ class C_accounting_firm
         $smarty = new Smarty_amnote();
         $title = "AMNOTE – for accounting firm";
         $view = "views/v_accounting_firm.tpl";
+        include("c_info_company.php");
         $smarty->assign("title",$title);
         $smarty->assign("accounting_firms",$accounting_firms);
         $smarty->assign("view",$view);

@@ -13,6 +13,7 @@ class C_chart
         $smarty = new Smarty_amnote();
         $title = "Chart of program description";
         $view = "views/v_chart.tpl";
+        include("c_info_company.php");
         $smarty->assign("title",$title);
         $smarty->assign("charts",$charts);
         $smarty->assign("view",$view);

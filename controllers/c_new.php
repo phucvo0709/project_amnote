@@ -21,6 +21,7 @@ class C_new
         $smarty = new Smarty_amnote();
         $title = $title_new;
         $view = "views/v_new.tpl";
+        include("c_info_company.php");
         $smarty->assign("title",$title);
         $smarty->assign("new",$new);
         $smarty->assign("view",$view);

@@ -6,7 +6,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand" href=".">
-                    <img src="public/images/logo.png" alt="AMNOTE" style="max-height: 48px; max-width: 125px">
+                    <img src="{$logo}" style="max-height: 48px; max-width: 125px">
                 </a>
 
                 <div class="collapse navbar-collapse" id="navbar">

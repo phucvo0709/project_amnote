@@ -19,6 +19,7 @@ class C_qa
         $smarty = new Smarty_amnote();
         $title = "Q&A";
         $view = "views/v_qa.tpl";
+        include("c_info_company.php");
         $smarty->assign("title",$title);
         $smarty->assign("qas",$qas);
         $smarty->assign("view",$view);
